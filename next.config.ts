@@ -1,0 +1,16 @@
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  output: 'export',
+  images: {
+    unoptimized: true,
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'admin.unifiedpts.com',
+        pathname: '/storage/**',
+      },
+    ],
+  },
+};
+
+export default nextConfig;
