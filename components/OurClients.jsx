@@ -6,8 +6,9 @@ const OurClients = () => {
   useEffect(() => {
     const fetchClients = async () => {
       try {
-        const url = process.env.NEXT_PUBLIC_API_URL || "https://admin.unifiedpts.com/api";
-        const res = await fetch(`${url}/client-images`);
+        const apiUrl = process.env.NEXT_PUBLIC_API_URL || "https://admin.unifiedpts.com/api";
+        const fetchUrl = process.env.NODE_ENV === 'development' ? '/api-proxy' : apiUrl;
+        const res = await fetch(`${fetchUrl}/client-images`);
         const result = await res.json();
         if (result.success) {
           setClients(result.data);

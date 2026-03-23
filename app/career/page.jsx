@@ -396,7 +396,9 @@ const Careers = () => {
   useEffect(() => {
     const fetchJobs = async () => {
       try {
-        const response = await fetch('https://admin.unifiedpts.com/api/job-openings');
+        const apiUrl = process.env.NEXT_PUBLIC_API_URL || "https://admin.unifiedpts.com/api";
+        const fetchUrl = process.env.NODE_ENV === 'development' ? '/api-proxy' : apiUrl;
+        const response = await fetch(`${fetchUrl}/job-openings`);
         if (!response.ok) throw new Error('Failed to fetch jobs');
         const data = await response.json();
         setOpenPositions(data);
@@ -458,13 +460,17 @@ const Careers = () => {
     }
 
     try {
-      const response = await fetch('https://admin.unifiedpts.com/api/job-applications', {
+      const apiUrl = process.env.NEXT_PUBLIC_API_URL || "https://admin.unifiedpts.com/api";
+      const fetchUrl = process.env.NODE_ENV === 'development' ? '/api-proxy' : apiUrl;
+      const response = await fetch(`${fetchUrl}/job-applications`, {
         method: 'POST',
         body: data,
       });
 
       if (!response.ok) {
-        throw new Error('Failed to submit application');
+        const errorData = await response.json().catch(() => ({}));
+        console.error('Backend error:', errorData);
+        throw new Error(errorData.message || 'Failed to submit application');
       }
 
       setSubmitStatus({ loading: false, success: true, error: '' });

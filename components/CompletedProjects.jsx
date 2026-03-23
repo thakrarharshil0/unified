@@ -11,7 +11,8 @@ export default function CompletedProjects() {
     async function fetchProjects() {
       try {
         const apiUrl = process.env.NEXT_PUBLIC_API_URL || "https://admin.unifiedpts.com/api";
-        const response = await fetch(`${apiUrl}/projects`);
+        const fetchUrl = process.env.NODE_ENV === 'development' ? '/api-proxy' : apiUrl;
+        const response = await fetch(`${fetchUrl}/projects`);
         if (response.ok) {
           const data = await response.json();
           // Map backend projects to component structure

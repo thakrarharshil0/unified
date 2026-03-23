@@ -11,6 +11,14 @@ const nextConfig = {
       },
     ],
   },
+  async rewrites() {
+    return [
+      {
+        source: '/api-proxy/:path*',
+        destination: 'https://admin.unifiedpts.com/api/:path*',
+      },
+    ];
+  },
 };
 
 export default nextConfig;

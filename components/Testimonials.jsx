@@ -18,7 +18,8 @@ const Testimonials = () => {
   useEffect(() => {
     const fetchReviews = async () => {
       try {
-        const response = await fetch('https://admin.unifiedpts.com/api/reviews');
+        const url = process.env.NODE_ENV === 'development' ? '/api-proxy' : 'https://admin.unifiedpts.com/api';
+        const response = await fetch(`${url}/reviews`);
         if (!response.ok) throw new Error('Failed to fetch reviews');
         const data = await response.json();
         setTestimonials(data);

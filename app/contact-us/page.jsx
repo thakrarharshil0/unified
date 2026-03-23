@@ -298,8 +298,9 @@ export default function ContactPage() {
                   };
 
                   try {
-                    const url = process.env.NEXT_PUBLIC_API_URL || "https://admin.unifiedpts.com/api";
-                    const res = await fetch(`${url}/contact-us`, {
+                    const apiUrl = process.env.NEXT_PUBLIC_API_URL || "https://admin.unifiedpts.com/api";
+                    const fetchUrl = process.env.NODE_ENV === 'development' ? '/api-proxy' : apiUrl;
+                    const res = await fetch(`${fetchUrl}/contact-us`, {
                       method: 'POST',
                       headers: { 'Content-Type': 'application/json' },
                       body: JSON.stringify(data),

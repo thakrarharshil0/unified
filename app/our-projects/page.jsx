@@ -1,9 +1,10 @@
 import ProjectsClient from './ProjectsClient';
 
 async function getProjects() {
-  const url = process.env.NEXT_PUBLIC_API_URL || "https://admin.unifiedpts.com/api";
+  const apiUrl = process.env.NEXT_PUBLIC_API_URL || "https://admin.unifiedpts.com/api";
+  const fetchUrl = (process.env.NODE_ENV === 'development' && typeof window !== 'undefined') ? '/api-proxy' : apiUrl;
   try {
-    const response = await fetch(`${url}/projects`, {
+    const response = await fetch(`${fetchUrl}/projects`, {
       next: { revalidate: 3600 } // Cache for 1 hour
     });
     
