@@ -9,8 +9,8 @@ import Image from "next/image";
 
 import { motion, AnimatePresence } from 'framer-motion';
 
-import Container from '@/components/UI/Container';
-import Button from '@/components/UI/Button';
+import Container from '@/components/ui/Container';
+import Button from '@/components/ui/Button';
 
 const Careers = () => {
 
