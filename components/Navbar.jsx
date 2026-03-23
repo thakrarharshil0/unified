@@ -177,7 +177,7 @@ const Navbar = () => {
   ];
 
   const mockResults = [
-    { title: 'Home888', path: '/', keywords: 'home homepage main index advanced bonded unbonded post-tensioning pt slabs mono strand multi-strand tendons anchorage systems ducts structural engineering solutions' },
+    { title: 'Home', path: '/', keywords: 'home homepage main index advanced bonded unbonded post-tensioning pt slabs mono strand multi-strand tendons anchorage systems ducts structural engineering solutions' },
     { title: 'About Us', path: '/about-us', keywords: 'about us company story mission leadership services design detailing supply installation stressing technical support' },
     { title: 'Who We Are', path: '/about-us#who-we-are', keywords: 'who we are company profile history background' },
     { title: 'Our Journey', path: '/our-journey', keywords: 'our journey history timeline milestones achievements' },
