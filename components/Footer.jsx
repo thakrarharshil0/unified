@@ -15,7 +15,7 @@ const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   const quickLinks = [
-    { name: "Home888", path: "/" },
+    { name: "Home", path: "/" },
     { name: "About Us", path: "/about-us#who-we-are" },
     { name: "Technology", path: "/technology" },
     { name: "Our Projects", path: "/our-projects" },
