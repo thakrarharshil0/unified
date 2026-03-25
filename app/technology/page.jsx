@@ -146,8 +146,8 @@ const Technology = () => {
       id: 1,
       title: "MATERIAL CUTTING & DISPATCH",
       description: [
-        "All PT materials—including strands, ducts, anchorages, wedges, and accessories—are inspected, measured,and cut according to approved shop drawings.",
-        "Each componentis labeled, bundled, and dispatched to site with proper identification to avoid installation errors and ensure smooth workflow at the slab level."
+        "All PT materials—including strands, ducts, anchorages, wedges, and accessories—are inspected, measured, and cut according to approved shop drawings.",
+        "Each component is labeled, bundled, and dispatched to site with proper identification to avoid installation errors and ensure smooth workflow at the slab level."
       ],
       imgSrc: "/assets/bonded-methodology/Material Dispatch.jpeg",
     },
@@ -156,7 +156,7 @@ const Technology = () => {
       title: "SHUTTERING & BOTTOM BAR BINDING",
       description: [
         "Formwork preparation and reinforcement binding are completed as per the structural drawings.",
-        "The anchorage zone reinforcement, bottom steel, and cover blacks are checked to ensure they meet PT requirements for bursting, spalling, and bearing stresses.",
+        "The anchorage zone reinforcement, bottom steel, and cover blocks are checked to ensure they meet PT requirements for bursting, spalling, and bearing stresses.",
         "A final pre-PT inspection ensures that the slab is ready for tendon installation."
       ],
       imgSrc: "/assets/bonded-methodology/Shuttering & Bar binding.jpeg",
@@ -682,7 +682,7 @@ const Technology = () => {
 
 
           {/* Footer note */}
-          <p className="text-gray-700 italic text-sm md:text-base pl-4 min-[2500px]:text-2xl">
+          <p className="text-gray-700 text-justify italic text-sm md:text-base pl-4 min-[2500px]:text-2xl">
             And several other performance benefits depending on structural configuration, loading conditions, and system selection.
           </p>
 
@@ -713,7 +713,7 @@ const Technology = () => {
             </div>
 
             {/* RIGHT – CONTENT */}
-            <div className="text-gray-700 text-base lg:text-lg leading-relaxed text-left lg:text-justify space-y-5 self-center indent-12 mt-8 lg:mt-0 min-[2500px]:text-4xl min-[2500px]:space-y-12">
+            <div className="text-gray-700 text-base lg:text-lg leading-relaxed text-justify lg:text-justify space-y-5 self-center indent-12 mt-8 lg:mt-0 min-[2500px]:text-4xl min-[2500px]:space-y-12">
 
               <p>
                 In bonded post-tensioning systems, high-strength steel tendons are permanently bonded to the surrounding concrete after stressing. This bond is achieved by pressure-grouting the ducts with cementitious grout, ensuring continuous load transfer along the entire tendon length.
@@ -781,8 +781,8 @@ const Technology = () => {
                             alt={step.title}
                             className="w-full h-56 md:h-96 object-cover rounded-lg shadow-md mb-4"
                           />
-                          <div className="text-gray-600 leading-relaxed text-sm">
-                            {Array.isArray(step.description) ? step.description.map((p, i) => <p key={i} className="mb-2">{p}</p>) : <p>{step.description}</p>}
+                          <div className="text-gray-600 text-justify leading-relaxed text-sm">
+                            {Array.isArray(step.description) ? step.description.map((p, i) => <p key={i} className="mb-2 text-justify">{p}</p>) : <p className="text-justify">{step.description}</p>}
                           </div>
                         </div>
                       </motion.div>
@@ -815,10 +815,10 @@ const Technology = () => {
                           const step = bondedInstallationSteps.find(s => s.id === activeBondedAccordion);
                           if (Array.isArray(step.description)) {
                             return step.description.map((paragraph, index) => (
-                              <p key={index} className={index > 0 ? "mt-4 min-[2500px]:mt-8" : ""}>{paragraph}</p>
+                              <p key={index} className={`text-justify ${index > 0 ? "mt-4 min-[2500px]:mt-8" : ""}`}>{paragraph}</p>
                             ));
                           }
-                          return <p>{step.description}</p>;
+                          return <p className="text-justify">{step.description}</p>;
                         })()}
                       </div>
                     </div>
@@ -975,9 +975,9 @@ const Technology = () => {
             </div>
 
             {/* RIGHT – CONTENT */}
-            <div className="text-gray-700 text-base lg:text-lg leading-relaxed text-left lg:text-justify space-y-5 self-center indent-12 mt-8 lg:mt-0 min-[2500px]:text-4xl min-[2500px]:space-y-12">
+            <div className="text-gray-700 text-base lg:text-lg leading-relaxed text-justify lg:text-justify space-y-5 self-center indent-12 mt-8 lg:mt-0 min-[2500px]:text-4xl min-[2500px]:space-y-12">
 
-              <p>
+              <p className="text-justify">
                 Unbonded (mono-strand) post-tensioning system are characterised by tendons that remain free to move relative to the surrounding concrete throughout the structure’s service life. Each tendon is individually coated with corrosion-resistant grease and enclosed within a seamless plastic sheathing, forming a fully encapsulated unit.
               </p>
 
@@ -1043,8 +1043,8 @@ const Technology = () => {
                             alt={step.title}
                             className="w-full h-56 md:h-96 object-cover rounded-lg shadow-md mb-4"
                           />
-                          <div className="text-gray-600 leading-relaxed text-sm">
-                            {Array.isArray(step.description) ? step.description.map((p, i) => <p key={i} className="mb-2">{p}</p>) : <p>{step.description}</p>}
+                          <div className="text-gray-600 text-justify leading-relaxed text-sm">
+                            {Array.isArray(step.description) ? step.description.map((p, i) => <p key={i} className="mb-2 text-justify">{p}</p>) : <p className="text-justify">{step.description}</p>}
                           </div>
                         </div>
                       </motion.div>
@@ -1072,15 +1072,15 @@ const Technology = () => {
                         alt={unbondedInstallationSteps.find(s => s.id === activeUnbondedAccordion).title}
                         className="w-full h-1/2 object-cover rounded-lg shadow-xl min-[2500px]:rounded-3xl"
                       />
-                      <div className="mt-6 text-gray-600 leading-relaxed indent-8 min-[2500px]:mt-12 min-[2500px]:text-4xl min-[2500px]:leading-snug">
+                      <div className="mt-6 text-justify text-gray-600 leading-relaxed indent-8 min-[2500px]:mt-12 min-[2500px]:text-4xl min-[2500px]:leading-snug">
                         {(() => {
                           const step = unbondedInstallationSteps.find(s => s.id === activeUnbondedAccordion);
                           if (Array.isArray(step.description)) {
                             return step.description.map((paragraph, index) => (
-                              <p key={index} className={index > 0 ? "mt-4 min-[2500px]:mt-8" : ""}>{paragraph}</p>
+                              <p key={index} className={`text-justify ${index > 0 ? "mt-4 min-[2500px]:mt-8" : ""}`}>{paragraph}</p>
                             ));
                           }
-                          return <p>{step.description}</p>;
+                          return <p className="text-justify">{step.description}</p>;
                         })()}
                       </div>
                     </div>
@@ -1149,7 +1149,7 @@ const Technology = () => {
                       <img src="/assets/unbonded-anchor-plate-1.jpg" alt="Anchorages & Couplers" className="w-full h-full object-cover" />
                     </div>
                     <div className="p-6 min-[2500px]:p-12">
-                      <h3 className="text-lg font-bold text-[#1a2a5e] mb-3 min-[2500px]:text-4xl min-[2500px]:mb-6">ANCHORE PLATE</h3>
+                      <h3 className="text-lg font-bold text-[#1a2a5e] mb-3 min-[2500px]:text-4xl min-[2500px]:mb-6 uppercase">ANCHOR PLATE</h3>
                       <p className="text-sm text-gray-600 leading-relaxed line-clamp-2 min-[2500px]:text-2xl min-[2500px]:line-clamp-4">
                         The anchor plate is a critical component of the PT anchorage system.
                       </p>
@@ -1288,7 +1288,7 @@ const Technology = () => {
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-0">
                       <div className="md:col-span-1 md:pr-8 md:border-r border-gray-200 pb-8 md:pb-0 border-b md:border-b-0">
                         <h3 className="text-[#0095AA] font-black text-xl lg:text-2xl mb-4 min-[2500px]:text-6xl min-[2500px]:mb-12 uppercase tracking-wider border-b-2 border-[#0095AA]/20 pb-2 inline-block whitespace-nowrap">Description</h3>
-                        <p className="text-gray-700 leading-relaxed text-lg min-[2500px]:text-4xl">{activeData.description}</p>
+                        <p className="text-gray-700 text-justify leading-relaxed text-lg min-[2500px]:text-4xl">{activeData.description}</p>
                       </div>
                       <div className="md:col-span-1 md:px-8 md:border-r border-gray-200 py-8 md:py-0 border-b md:border-b-0">
                         <h3 className="text-[#0095AA] font-black text-xl lg:text-2xl mb-4 min-[2500px]:text-6xl min-[2500px]:mb-12 uppercase tracking-wider border-b-2 border-[#0095AA]/20 pb-2 inline-block whitespace-nowrap">Structural Appearance</h3>

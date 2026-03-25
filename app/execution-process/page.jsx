@@ -205,7 +205,6 @@ export default function Page() {
           <Container>
             <SectionTitle
               title="Execution Process"
-              subtitle="Our Steps Of"
               titleClassName="font-anton tracking-wider text-[#1a2a5e]"
               subtitleClassName="font-bold"
             />
@@ -271,7 +270,7 @@ export default function Page() {
                               </h4>
                             </div>
                           </div>
-                          <p className="text-text-light leading-relaxed text-base">
+                          <p className="text-text-light text-justify leading-relaxed text-base">
                             {step.description}
                           </p>
 

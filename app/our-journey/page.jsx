@@ -423,7 +423,7 @@ const OurJourney = () => {
         <div className="relative z-10 max-w-[1400px] mx-auto flex flex-col-reverse lg:flex-row gap-10 md:gap-16 items-start px-5 sm:px-10 min-[2500px]:max-w-[2200px] min-[2500px]:items-center">          {/* Left Side - Text Content */}
           <div className="flex-1 flex flex-col">
             {/* Paragraph 1 */}
-            <p className="text-[1.1rem] leading-relaxed text-gray-700 text-left font-medium indent-12 min-[2500px]:text-4xl">
+            <p className="text-[1.1rem] leading-relaxed text-gray-700 text-justify font-medium indent-12 min-[2500px]:text-4xl">
               As India&apos;s construction sector rapidly expanded, projects demanded longer spans,
               Thinner section, faster cycles, and tighter cost control. Post-tensioning was becoming
               essential but execution standards across the industry were inconsistent, often driven
@@ -436,14 +436,14 @@ const OurJourney = () => {
             </div>
 
             {/* Paragraph 2 */}
-            <p className="text-[1.1rem] leading-relaxed text-gray-700 text-left font-medium indent-12 min-[2500px]:text-4xl">
+            <p className="text-[1.1rem] leading-relaxed text-gray-700 text-justify font-medium indent-12 min-[2500px]:text-4xl">
               From the beginning, the company focused on premium unbonded and bonded post-tensioning
               systems, supported by structured planning, material traceability, trained execution
               teams, and strict compliance with engineering intent.
             </p>
 
             {/* Paragraph 3 */}
-            <p className="text-[1.1rem] leading-relaxed text-gray-700 text-left font-medium indent-12 mt-5 min-[2500px]:text-4xl">
+            <p className="text-[1.1rem] leading-relaxed text-gray-700 text-justify font-medium indent-12 mt-5 min-[2500px]:text-4xl">
               Rather than treating PT as an isolated site task, Unified embedded a process-led
               methodology understanding structural intent, controlling tendon layouts and
               sequencing, executing with precision, and documenting every stressing operation

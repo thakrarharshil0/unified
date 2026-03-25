@@ -307,6 +307,7 @@
   }
 
   .sector-description {
+    text-align: justify;
     font-size: 13px;
   }
 }
@@ -363,6 +364,7 @@
   }
 
   .sector-description {
+    text-align: justify;
     font-size: 12px;
   }
 }
@@ -412,6 +414,10 @@
     font-size: 12px;
   }
 
+  .sector-description {
+    text-align: justify;
+  }
+
 }
 
 @media (max-width: 480px) {
@@ -451,8 +457,7 @@
   }
 
   .sector-description {
-    text-align: left;
-    word-spacing: normal;
+    text-align: justify;
   }
 }
 
@@ -497,6 +502,7 @@
   }
 
   .sector-description {
+    text-align: justify;
     font-size: 18px;
   }
 

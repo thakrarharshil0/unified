@@ -96,7 +96,7 @@ const WhoWeAre = () => {
                 </p>
                 <p className="pt-paragraph">
                   Post-tensioning is integrated into the structural system as a
-                  design strategy—not applied as a standardised solution. Our
+                  design strategy not applied as a standardised solution. Our
                   approach enhances concrete behaviour,
                   reduces unnecessary material consumption, and maximises usable
                   space within the structure.

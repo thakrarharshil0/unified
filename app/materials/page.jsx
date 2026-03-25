@@ -498,12 +498,12 @@ export default function MaterialsPage() {
         </h2>
 
         <div className="relative z-10 max-w-7xl min-[2000px]:max-w-[1800px] mx-auto flex-col lg:flex-row items-center mb-14 min-[2000px]:mb-20">
-          <p className="text-lg md:text-2xl min-[2000px]:text-4xl leading-relaxed text-gray-700 font-medium text-justify mb-4 indent-4 md:indent-12">
+          <p className="text-lg text-justify md:text-2xl min-[2000px]:text-4xl leading-relaxed text-gray-700 font-medium text-justify mb-4 indent-4 md:indent-12">
             Bonded post-tensioning systems utilise low-relaxation, seven-wire prestressing steel strands
             of Class II (Grade 1860), manufactured in accordance with ASTM A416-2010 and IS 14268:1995.
           </p>
 
-          <p className="text-lg md:text-2xl min-[2000px]:text-4xl leading-relaxed text-gray-700 font-medium text-justify mb-4 indent-4 md:indent-12">
+          <p className="text-lg text-justify md:text-2xl min-[2000px]:text-4xl leading-relaxed text-gray-700 font-medium text-justify mb-4 indent-4 md:indent-12">
             These strands are engineered to deliver high tensile capacity, minimal relaxation losses,
             and stable performance during stressing and throughout the service life of the structure.
           </p>
@@ -517,7 +517,7 @@ export default function MaterialsPage() {
             <h3 className="text-[clamp(1.6rem,4vw,3rem)] min-[2000px]:text-[5rem] font-black text-[#1a2a5e] font-anton text-center sm:text-left mx-auto mb-6 mt-14 min-[2000px]:mt-24 relative z-10">
               Technical Properties
             </h3>
-            <ul className="space-y-4 min-[2000px]:space-y-8 text-gray-700 text-lg md:text-2xl min-[2000px]:text-3xl leading-relaxed font-medium list-disc pl-5">
+            <ul className="space-y-4 text-justify min-[2000px]:space-y-8 text-gray-700 text-lg md:text-2xl min-[2000px]:text-3xl leading-relaxed font-medium list-disc pl-5">
 
               <li>
                 Low-Relaxation 7 wire Strand of Class II (Grade 1860 as per ASTM A416-2010) with 12.9/15.2 mm nominal diameter used in Bonded post tensioning tendons shall conform to the requirements of IS 14268:2022
@@ -622,7 +622,7 @@ export default function MaterialsPage() {
               Material Grades
             </h3>
 
-            <ul className="space-y-4 min-[2000px]:space-y-8 list-disc pl-6 text-gray-900 font-medium">
+            <ul className="space-y-4 text-justify min-[2000px]:space-y-8 list-disc pl-6 text-gray-900 font-medium">
 
               <li className="text-lg md:text-2xl min-[2000px]:text-3xl">
                 <strong>Material:</strong> Wedges may be manufactured from the following alloy steels
@@ -940,7 +940,7 @@ export default function MaterialsPage() {
           </div>
 
           {/* ===== DESCRIPTION ===== */}
-          <div className="mt-8 space-y-6 min-[2000px]:space-y-12 text-lg md:text-2xl min-[2000px]:text-4xl text-gray-900 leading-relaxed font-medium indent-4 md:indent-12">
+          <div className="mt-8 text-justify space-y-6 min-[2000px]:space-y-12 text-lg md:text-2xl min-[2000px]:text-4xl text-gray-900 leading-relaxed font-medium indent-4 md:indent-12">
             <p>
               The prestressing strand is coated with a specially formulated corrosion-inhibiting grease
               that fully occupies the annular space between the steel strand and the plastic sheathing.
@@ -954,7 +954,7 @@ export default function MaterialsPage() {
 
           {/* ===== SPECIFICATION BOX ===== */}
           <div className="mt-10 min-[2000px]:mt-20 p-0 md:p-8 min-[2000px]:p-16">
-            <ul className="space-y-4 min-[2000px]:space-y-8 text-gray-700 text-lg md:text-2xl min-[2000px]:text-3xl leading-relaxed font-medium list-disc pl-5">
+            <ul className="space-y-4 text-justify min-[2000px]:space-y-8 text-gray-700 text-lg md:text-2xl min-[2000px]:text-3xl leading-relaxed font-medium list-disc pl-5">
 
               <li>
                 Grease coating shall provide protection against corrosion to the prestressing steel.
@@ -1002,7 +1002,7 @@ export default function MaterialsPage() {
           </div>
 
           {/* ===== DESCRIPTION ===== */}
-          <div className="mt-8 space-y-6 min-[2000px]:space-y-12 text-lg md:text-2xl min-[2000px]:text-4xl text-gray-900 leading-relaxed font-medium indent-4 md:indent-12">
+          <div className="mt-8 text-justify space-y-6 min-[2000px]:space-y-12 text-lg md:text-2xl min-[2000px]:text-4xl text-gray-900 leading-relaxed font-medium indent-4 md:indent-12">
             <p>
               The strand and grease are enclosed within a seamless, high-density plastic sheathing that fully isolates the tendon from the surrounding concrete.
             </p>
@@ -1020,7 +1020,7 @@ export default function MaterialsPage() {
 
           {/* ===== SPECIFICATION BOX ===== */}
           <div className="mt-10 md:mt-0 min-[2000px]:mt-20 p-0 md:p-8 md:pt-8 min-[2000px]:p-16">
-            <ul className="space-y-4 min-[2000px]:space-y-8 text-gray-700 text-lg md:text-2xl min-[2000px]:text-3xl leading-relaxed font-medium list-disc pl-5">
+            <ul className="space-y-4 text-justify min-[2000px]:space-y-8 text-gray-700 text-lg md:text-2xl min-[2000px]:text-3xl leading-relaxed font-medium list-disc pl-5">
 
               <li>
                 <strong>Sheathing Material:</strong> Polypropylene
@@ -1063,11 +1063,11 @@ export default function MaterialsPage() {
 
         {/* ================= INTRO TEXT ================= */}
         <div className="relative z-10 max-w-7xl min-[2000px]:max-w-[1800px] mx-auto mb-14 min-[2000px]:mb-20">
-          <p className="text-lg md:text-2xl min-[2000px]:text-4xl leading-relaxed text-gray-700 font-medium text-justify mb-4 indent-4 md:indent-12">
+          <p className="text-lg text-justify md:text-2xl min-[2000px]:text-4xl leading-relaxed text-gray-700 font-medium text-justify mb-4 indent-4 md:indent-12">
             Wedges are precision-engineered mechanical components that grip the prestressing strand and transfer stressing force into the anchor plate.
           </p>
 
-          <p className="text-lg md:text-2xl min-[2000px]:text-4xl leading-relaxed text-gray-700 font-medium text-justify mb-4 indent-4 md:indent-12">
+          <p className="text-lg text-justify md:text-2xl min-[2000px]:text-4xl leading-relaxed text-gray-700 font-medium text-justify mb-4 indent-4 md:indent-12">
             Their hardness profile, metallurgy, and dimensional control are critical to achieving consistent anchorage performance under high prestressing loads and repeated stress cycles.
           </p>
 
@@ -1082,7 +1082,7 @@ export default function MaterialsPage() {
             <h3 className="text-[clamp(1.6rem,_4vw,_3rem)] min-[2000px]:text-[5rem] font-black text-[#1a2a5e] font-anton mx-auto mb-8 min-[2000px]:mb-12 text-center md:text-left md:pl-12 relative z-10">
               Hardness Requirements
             </h3>
-            <ul className="space-y-4 min-[2000px]:space-y-8 list-disc pl-6 text-gray-900 font-medium">
+            <ul className="space-y-4 text-justify min-[2000px]:space-y-8 list-disc pl-6 text-gray-900 font-medium">
 
               <li className="text-lg md:text-2xl min-[2000px]:text-3xl">
                 <strong>Core Hardness:</strong> Minimum 20 HRC
@@ -1111,7 +1111,7 @@ export default function MaterialsPage() {
               Material Grades
             </h3>
 
-            <ul className="space-y-4 min-[2000px]:space-y-8 list-disc pl-6 text-gray-900 font-medium">
+            <ul className="space-y-4 text-justify min-[2000px]:space-y-8 list-disc pl-6 text-gray-900 font-medium">
 
               <li className="text-lg md:text-2xl min-[2000px]:text-3xl">
                 <strong>Material:</strong> Wedges may be manufactured from the following alloy steels
@@ -1167,11 +1167,11 @@ export default function MaterialsPage() {
 
         {/* ================= INTRO TEXT ================= */}
         <div className="relative z-10 max-w-7xl min-[2000px]:max-w-[1800px] mx-auto mb-14 min-[2000px]:mb-20">
-          <p className="text-lg md:text-2xl min-[2000px]:text-4xl leading-relaxed text-gray-700 font-medium text-justify mb-4 indent-4 md:indent-12">
+          <p className="text-lg text-justify md:text-2xl min-[2000px]:text-4xl leading-relaxed text-gray-700 font-medium text-justify mb-4 indent-4 md:indent-12">
             <strong>Material Grade:</strong> ASTM A536 Grade 80-55-06 or IS 1865 Grade SG 500/7 or 550/6
           </p>
 
-          <p className="text-lg md:text-2xl min-[2000px]:text-4xl leading-relaxed text-gray-700 font-medium text-justify mb-4 indent-4 md:indent-12">
+          <p className="text-lg text-justify md:text-2xl min-[2000px]:text-4xl leading-relaxed text-gray-700 font-medium text-justify mb-4 indent-4 md:indent-12">
             Casting shall be non-porous and free of sand, blow holes, voids, and other defects.
           </p>
         </div>
@@ -1185,7 +1185,7 @@ export default function MaterialsPage() {
             <h3 className="text-[clamp(1.6rem,_4vw,_3rem)] min-[2000px]:text-[5rem] font-black text-[#1a2a5e] font-anton mx-auto mb-8 text-center sm:text-left relative z-10">
               MICROSTRUCTURE
             </h3>
-            <ul className="space-y-4 min-[2000px]:space-y-8 list-disc pl-6 text-gray-900 font-medium">
+            <ul className="space-y-4 text-justify min-[2000px]:space-y-8 list-disc pl-6 text-gray-900 font-medium">
 
               <li className="text-lg md:text-2xl min-[2000px]:text-3xl">
                 <strong>Graphite Type (AS PER ASTM A247 PLATE I & II)</strong>

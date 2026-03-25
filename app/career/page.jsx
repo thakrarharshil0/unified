@@ -588,20 +588,20 @@ const Careers = () => {
                 Meet the Team Behind Our Success
               </h2>
 
-              <p className="text-gray-600 leading-relaxed mb-5">
+              <p className="text-gray-600 text-justify leading-relaxed mb-5">
                 At Unified, our strength lies in the people who plan,
                 execute, and deliver post-tensioning systems with
                 precision and accountability.
               </p>
 
-              <p className="text-gray-600 leading-relaxed mb-5">
+              <p className="text-gray-600 text-justify leading-relaxed mb-5">
                 Our teams include engineers, execution specialists,
                 supervisors, and support functions working together to
                 ensure every project meets structural intent and quality
                 expectations.
               </p>
 
-              <p className="text-gray-700 font-medium">
+              <p className="text-gray-700 text-justify font-medium">
                 We believe strong structures are built by strong teams,
                 aligned in purpose and responsibility.
               </p>
@@ -658,7 +658,7 @@ const Careers = () => {
 
                     </div>
                   </div>
-                  <p className="text-gray-600 leading-relaxed text-sm md:text-base">
+                  <p className="text-gray-600 text-justify leading-relaxed text-sm md:text-base">
                     We prioritise technical clarity, correct detailing, and disciplined execution over shortcuts.
                   </p>
                 </div>
@@ -680,7 +680,7 @@ const Careers = () => {
 
                     </div>
                   </div>
-                  <p className="text-gray-600 leading-relaxed text-sm md:text-base">
+                  <p className="text-gray-600 text-justify leading-relaxed text-sm md:text-base">
                     Work on residential, commercial, podium, and long-span structures across multiple regions.
                   </p>
                 </div>
@@ -702,7 +702,7 @@ const Careers = () => {
 
                     </div>
                   </div>
-                  <p className="text-gray-600 leading-relaxed text-sm md:text-base">
+                  <p className="text-gray-600 text-justify leading-relaxed text-sm md:text-base">
                     Hands-on exposure to site execution, coordination, and system behaviour — not just desk work.
                   </p>
                 </div>
@@ -724,7 +724,7 @@ const Careers = () => {
 
                     </div>
                   </div>
-                  <p className="text-gray-600 leading-relaxed text-sm md:text-base">
+                  <p className="text-gray-600 text-justify leading-relaxed text-sm md:text-base">
                     Clear roles, defined workflows, and responsibility at every level.
                   </p>
                 </div>
@@ -746,7 +746,7 @@ const Careers = () => {
 
                     </div>
                   </div>
-                  <p className="text-gray-600 leading-relaxed text-sm md:text-base">
+                  <p className="text-gray-600 text-justify leading-relaxed text-sm md:text-base">
                     Performance and commitment are recognised through increased responsibility and career growth.
                   </p>
                 </div>
@@ -768,7 +768,7 @@ const Careers = () => {
 
                     </div>
                   </div>
-                  <p className="text-gray-600 leading-relaxed text-sm md:text-base">
+                  <p className="text-gray-600 text-justify leading-relaxed text-sm md:text-base">
                     Quality and safety are non-negotiable — they are part of how we work every day.
                   </p>
                 </div>
@@ -807,7 +807,7 @@ const Careers = () => {
             <h2 className="text-4xl font-semibold text-gray-900">
               Current Open Positions
             </h2>
-            <p className="mt-4 text-gray-600 max-w-3xl mx-auto">
+            <p className="mt-4  text-gray-600 max-w-3xl mx-auto">
               We are always looking for motivated professionals who are eager to learn,
               contribute, and grow within the post-tensioning and construction engineering domain.
             </p>
@@ -877,7 +877,7 @@ const Careers = () => {
                           <div className="mb-6">
                             <h4 className="text-lg font-semibold text-[#1a2a5e] mb-2">Job Description</h4>
                             <div
-                              className="text-gray-600 leading-relaxed mb-4 prose max-w-none"
+                              className="text-gray-600 text-justify leading-relaxed mb-4 prose max-w-none"
                               dangerouslySetInnerHTML={{ __html: job.description }}
                             />
                           </div>

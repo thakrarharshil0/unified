@@ -1916,11 +1916,11 @@ export default function AboutUs() {
 
             {/* Text Content */}
             <div className="flex-1 flex flex-col gap-[20px] md:gap-[25px] indent-[2em] text-left min-[2500px]:max-w-[1200px]">
-              <p className="text-[1rem] md:text-[1.1rem] text-[#333] m-0 font-['Segoe_UI'] font-[600] min-[2500px]:text-4xl">
+              <p className="text-[1rem] text-justify md:text-[1.1rem] text-[#333] m-0 font-['Segoe_UI'] font-[600] min-[2500px]:text-4xl">
                 <strong>Unified Post-Tensioning Systems LLP</strong> operates under a structured Quality Management System aligned with <strong>ISO 9001:2015</strong> standards.
               </p>
 
-              <p className="text-[1rem] md:text-[1.1rem] text-[#333] m-0 font-['Segoe_UI'] font-[600] min-[2500px]:text-4xl">
+              <p className="text-[1rem] text-justify md:text-[1.1rem] text-[#333] m-0 font-['Segoe_UI'] font-[600] min-[2500px]:text-4xl">
                 Our processes are built to ensure consistency, traceability, and engineering accountability across design, material handling, site execution and project handover.
               </p>
 
@@ -1928,36 +1928,36 @@ export default function AboutUs() {
                 Quality Policy
               </h3>
 
-              <p className="text-[1rem] md:text-[1.1rem] text-[#333] m-0 font-['Segoe_UI'] font-[600] min-[2500px]:text-4xl">
+              <p className="text-[1rem] text-justify md:text-[1.1rem] text-[#333] m-0 font-['Segoe_UI'] font-[600] min-[2500px]:text-4xl">
                 At Unified, quality is not treated as documentation compliance – it is embedded into how we design, plan, execute, and review every post-tensioning system.
               </p>
 
-              <p className="text-[1rem] md:text-[1.1rem] text-[#333] m-0 font-['Segoe_UI'] font-[600] min-[2500px]:text-4xl">
+              <p className="text-[1rem] text-justify md:text-[1.1rem] text-[#333] m-0 font-['Segoe_UI'] font-[600] min-[2500px]:text-4xl">
                 We are committed to delivering dependable post-tensioning solutions by:
               </p>
 
               <ul className="list-none p-0 m-0 flex flex-col gap-[10px] md:gap-[12px] indent-0">
-                <li className="text-[1rem] md:text-[1.1rem] text-[#333] pl-[30px] relative font-['Segoe_UI'] font-[600] min-[2500px]:text-4xl min-[2500px]:pl-16">
+                <li className="text-[1rem] text-justify md:text-[1.1rem] text-[#333] pl-[30px] relative font-['Segoe_UI'] font-[600] min-[2500px]:text-4xl min-[2500px]:pl-16">
                   <span className="absolute left-0 text-[#0095AA] text-[1.2rem] min-[2500px]:text-4xl">✓</span>
                   Clearly understanding project-specific structural and execution requirements.
                 </li>
-                <li className="text-[1rem] md:text-[1.1rem] text-[#333] pl-[30px] relative font-['Segoe_UI'] font-[600] min-[2500px]:text-4xl min-[2500px]:pl-16">
+                <li className="text-[1rem] text-justify md:text-[1.1rem] text-[#333] pl-[30px] relative font-['Segoe_UI'] font-[600] min-[2500px]:text-4xl min-[2500px]:pl-16">
                   <span className="absolute left-0 text-[#0095AA] text-[1.2rem] min-[2500px]:text-4xl">✓</span>
                   Providing technically appropriate, engineer-approved PT system solutions.
                 </li>
-                <li className="text-[1rem] md:text-[1.1rem] text-[#333] pl-[30px] relative font-['Segoe_UI'] font-[600] min-[2500px]:text-4xl min-[2500px]:pl-16">
+                <li className="text-[1rem] text-justify md:text-[1.1rem] text-[#333] pl-[30px] relative font-['Segoe_UI'] font-[600] min-[2500px]:text-4xl min-[2500px]:pl-16">
                   <span className="absolute left-0 text-[#0095AA] text-[1.2rem] min-[2500px]:text-4xl">✓</span>
                   Supplying certified, durable materials with controlled quality checks.
                 </li>
-                <li className="text-[1rem] md:text-[1.1rem] text-[#333] pl-[30px] relative font-['Segoe_UI'] font-[600] min-[2500px]:text-4xl min-[2500px]:pl-16">
+                <li className="text-[1rem] text-justify md:text-[1.1rem] text-[#333] pl-[30px] relative font-['Segoe_UI'] font-[600] min-[2500px]:text-4xl min-[2500px]:pl-16">
                   <span className="absolute left-0 text-[#0095AA] text-[1.2rem] min-[2500px]:text-4xl">✓</span>
                   Adhering to applicable codes, standards, and consultant specifications.
                 </li>
-                <li className="text-[1rem] md:text-[1.1rem] text-[#333] pl-[30px] relative font-['Segoe_UI'] font-[600] min-[2500px]:text-4xl min-[2500px]:pl-16">
+                <li className="text-[1rem] text-justify md:text-[1.1rem] text-[#333] pl-[30px] relative font-['Segoe_UI'] font-[600] min-[2500px]:text-4xl min-[2500px]:pl-16">
                   <span className="absolute left-0 text-[#0095AA] text-[1.2rem] min-[2500px]:text-4xl">✓</span>
                   Maintaining disciplined execution practices at site level.
                 </li>
-                <li className="text-[1rem] md:text-[1.1rem] text-[#333] pl-[30px] relative font-['Segoe_UI'] font-[600] min-[2500px]:text-4xl min-[2500px]:pl-16">
+                <li className="text-[1rem] text-justify md:text-[1.1rem] text-[#333] pl-[30px] relative font-['Segoe_UI'] font-[600] min-[2500px]:text-4xl min-[2500px]:pl-16">
                   <span className="absolute left-0 text-[#0095AA] text-[1.2rem] min-[2500px]:text-4xl">✓</span>
                   Continuously improving processes based on audits, feedback, and performance reviews.
                 </li>

@@ -216,7 +216,7 @@ const Hero = () => {
             <div className="grid grid-cols-2 gap-3 sm:gap-5 min-[1800px]:gap-8"> {/* Gap moderate */}
               {[
                 [animatedNumbers.years, "Years of Experience"],
-                [animatedNumbers.projects, "Projects Done"],
+                [animatedNumbers.projects, "Projects Completed"],
                 [animatedNumbers.cities, "Cities of Work"],
                 [animatedNumbers.engineers, "Engineers & Architects"],
               ].map(([num, label], i) => (

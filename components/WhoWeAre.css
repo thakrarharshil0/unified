@@ -132,7 +132,6 @@
 .pt-text-content {
   display: flex;
   flex-direction: column;
-  max-width: 500px;
   gap: 20px;
 }
 
@@ -142,12 +141,8 @@
   line-height: 1.7;
   color: #333;
   margin-bottom: 20px;
-
   text-align: justify;
   text-indent: 30px;
-
-  text-align-last: left;
-  hyphens: auto;
 }
 
 .pt-video-container {
@@ -589,6 +584,7 @@
   }
 
   .pt-paragraph {
+    text-align: justify;
     font-size: 20px;
   }
 
@@ -690,6 +686,7 @@
   .pt-paragraph {
     font-size: 16px;
     text-indent: 20px;
+    text-align: justify;
   }
 
   .pt-video {
@@ -781,6 +778,7 @@
 
   .pt-paragraph {
     font-size: 15px;
+    text-align: justify;
   }
 
   .pt-video {
@@ -893,7 +891,7 @@
   .pt-paragraph {
     font-size: 14px;
     text-indent: 15px;
-    text-align: left;
+    text-align: justify;
     word-spacing: normal;
   }
 

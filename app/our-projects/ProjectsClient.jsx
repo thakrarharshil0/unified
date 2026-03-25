@@ -166,7 +166,7 @@ export default function ProjectsClient({ initialProjects }) {
                       Detailed Scope
                     </h4>
                     <div
-                      className="text-white/90 leading-relaxed text-lg prose prose-invert prose-p:my-2 marker:text-[#0095AA]"
+                      className="text-white/90 text-justify leading-relaxed text-lg prose prose-invert prose-p:my-2 marker:text-[#0095AA]"
                       dangerouslySetInnerHTML={{ __html: selectedProject.description || 'No detailed description available for this project.' }}
                     />
                   </div>
