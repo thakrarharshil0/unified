@@ -132,17 +132,22 @@
 .pt-text-content {
   display: flex;
   flex-direction: column;
+  max-width: 500px;
   gap: 20px;
 }
 
 .pt-paragraph {
   font-size: 24px;
   font-weight: 500;
-  line-height: 1.5;
+  line-height: 1.7;
   color: #333;
-  margin: 0;
+  margin-bottom: 20px;
+
   text-align: justify;
   text-indent: 30px;
+
+  text-align-last: left;
+  hyphens: auto;
 }
 
 .pt-video-container {
@@ -438,9 +443,11 @@
   .pt-main-title .title-break {
     display: block;
   }
+
   .system-card {
     margin-top: -125px !important;
   }
+
   .systems-teal-container {
     margin-top: 120px !important;
   }

@@ -5,14 +5,14 @@ async function getProjects() {
   const fetchUrl = (process.env.NODE_ENV === 'development' && typeof window !== 'undefined') ? '/api-proxy' : apiUrl;
   try {
     const response = await fetch(`${fetchUrl}/projects`, {
-      next: { revalidate: 3600 } // Cache for 1 hour
+      cache: "no-store",
     });
-    
+
     if (!response.ok) {
       console.error(`Failed to fetch projects: ${response.status} ${response.statusText}`);
       return [];
     }
-    
+
     return await response.json();
   } catch (error) {
     console.error("Error fetching projects on server:", error);
@@ -22,6 +22,6 @@ async function getProjects() {
 
 export default async function ProjectsPage() {
   const projects = await getProjects();
-  
+
   return <ProjectsClient initialProjects={projects} />;
 }

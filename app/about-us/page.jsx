@@ -682,19 +682,19 @@ export default function AboutUs() {
 
           {/* Right Side - Text Content */}
           <div className="flex-1 flex flex-col gap-4 indent-8">
-            <p className="text-lg leading-relaxed text-gray-800 text-left font-medium min-[2500px]:text-4xl">
+            <p className="text-lg leading-relaxed text-gray-800 text-justify font-medium min-[2500px]:text-4xl">
               Unified Post-Tensioning Systems LLP is a specialised engineering firm delivering unbonded and bonded post-tensioning solutions for modern construction across India.
             </p>
 
-            <p className="text-lg leading-relaxed text-gray-800 text-left font-medium min-[2500px]:text-4xl">
+            <p className="text-lg leading-relaxed text-gray-800 text-justify font-medium min-[2500px]:text-4xl">
               We operate with a disciplined, process-driven approach that integrates design, detailing, material control, and site execution into a single, accountable system. Our focus is on engineering clarity, execution accuracy, and long-term structural performance not shortcuts or site-level improvisation.
             </p>
 
-            <p className="text-lg leading-relaxed text-gray-800 text-left font-medium min-[2500px]:text-4xl">
+            <p className="text-lg leading-relaxed text-gray-800 text-justify font-medium min-[2500px]:text-4xl">
               Unified is built on dependability, consistency, and cost efficiency. Our systems enable longer spans, optimised slab behaviour, reduced structural weight, and predictable construction outcomes without compromising safety or quality.
             </p>
 
-            <p className="text-lg leading-relaxed text-gray-800 text-left font-medium min-[2500px]:text-4xl">
+            <p className="text-lg leading-relaxed text-gray-800 text-justify font-medium min-[2500px]:text-4xl">
               We do not treat post-tensioning as a routine site activity. We treat it as a critical structural system that demands planning, traceability, and technical accountability at every stage of the project lifecycle.
             </p>
           </div>
