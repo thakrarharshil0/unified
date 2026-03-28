@@ -88,13 +88,13 @@ export default function Page() {
     {
       number: '03',
       title: 'PRICING PROPOSAL',
-      description: "We'll go over the quote and the project's scope with you. The project will be considered finalized after you approve the pricing. Processing the advance payment and finishing the required paperwork, such as the PO & WO, will be the next steps.",
+      description: "We'll go over the quote and the project's scope with you. The project will be considered finalized after you approve the pricing. Processing the advance payment and finishing the required paperwork, such as the Purchase Order & Work Order, will be the next steps.",
       icon: '/iconspngs/3.png'
     },
     {
       number: '04',
       title: 'DESIGN FINALIZATION',
-      description: "Once you approve the quotation, we will begin working on the steel details.",
+      description: "Once you clear advance payment and paperwork, we will begin working on the steel details.",
       icon: '/iconspngs/4.png'
     },
     {

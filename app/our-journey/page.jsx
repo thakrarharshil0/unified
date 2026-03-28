@@ -388,7 +388,7 @@ const OurJourney = () => {
         <div
           className="absolute top-[100px] left-0 w-full h-full opacity-[0.05] z-0 pointer-events-none min-[2500px]:top-[150px]"
           style={{
-            backgroundImage: "url('/assets/structural-geometry/pt_beam_with_pt_slab.jpeg')",
+            backgroundImage: "url('/assets/structural-geometry/pt_beam_with_pt_slab.png')",
             backgroundPosition: "left top",
             backgroundRepeat: "no-repeat",
             backgroundSize: "100% auto",

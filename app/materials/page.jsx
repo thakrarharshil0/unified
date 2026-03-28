@@ -499,13 +499,11 @@ export default function MaterialsPage() {
 
         <div className="relative z-10 max-w-7xl min-[2000px]:max-w-[1800px] mx-auto flex-col lg:flex-row items-center mb-14 min-[2000px]:mb-20">
           <p className="text-lg text-justify md:text-2xl min-[2000px]:text-4xl leading-relaxed text-gray-700 font-medium text-justify mb-4 indent-4 md:indent-12">
-            Bonded post-tensioning systems utilise low-relaxation, seven-wire prestressing steel strands
-            of Class II (Grade 1860), manufactured in accordance with ASTM A416-2010 and IS 14268:1995.
+            Prestressing steel strands are high-strength tensile elements used to apply controlled forces in bonded post-tensioning systems.
           </p>
 
-          <p className="text-lg text-justify md:text-2xl min-[2000px]:text-4xl leading-relaxed text-gray-700 font-medium text-justify mb-4 indent-4 md:indent-12">
-            These strands are engineered to deliver high tensile capacity, minimal relaxation losses,
-            and stable performance during stressing and throughout the service life of the structure.
+          <p className="text-lg text-justify md:text-2xl min-[2000px]:text-4xl leading-relaxed text-gray-700 font-medium mb-4 indent-4 md:indent-12">
+            They ensure efficient load transfer, structural stability, and long-term performance within concrete.
           </p>
         </div>
 
@@ -517,7 +515,7 @@ export default function MaterialsPage() {
             <h3 className="text-[clamp(1.6rem,4vw,3rem)] min-[2000px]:text-[5rem] font-black text-[#1a2a5e] font-anton text-center sm:text-left mx-auto mb-6 mt-14 min-[2000px]:mt-24 relative z-10">
               Technical Properties
             </h3>
-            <ul className="space-y-4 text-justify min-[2000px]:space-y-8 text-gray-700 text-lg md:text-2xl min-[2000px]:text-3xl leading-relaxed font-medium list-disc pl-5">
+            {/* <ul className="space-y-4 text-justify min-[2000px]:space-y-8 text-gray-700 text-lg md:text-2xl min-[2000px]:text-3xl leading-relaxed font-medium list-disc pl-5">
 
               <li>
                 Low-Relaxation 7 wire Strand of Class II (Grade 1860 as per ASTM A416-2010) with 12.9/15.2 mm nominal diameter used in Bonded post tensioning tendons shall conform to the requirements of IS 14268:2022
@@ -567,6 +565,41 @@ export default function MaterialsPage() {
                 </ul>
               </li>
 
+            </ul> */}
+            <ul className="space-y-4 text-justify min-[2000px]:space-y-8 text-gray-700 text-lg md:text-2xl min-[2000px]:text-3xl leading-relaxed font-medium list-disc pl-5">
+
+              <li>
+                Low-Relaxation 7 wire Strand of Class II (Grade 1860 as per ASTM A416–2010) with 12.9/15.2 mm nominal diameter used in Bonded post tensioning tendons shall conform to the requirements of IS 14268:2022
+              </li>
+
+              <li>
+                Sectional steel area of Strand: 100/140 mm²
+              </li>
+
+              <li>
+                Yield Load: Not less than 164/228 kN
+              </li>
+
+              <li>
+                Ultimate Strength: Not less than 1860 N/mm²
+              </li>
+
+              <li>
+                Minimum Breaking Strength: Not less than 186/259 kN
+              </li>
+
+              <li>
+                Modulus of Elasticity: At least 195,000 N/mm²
+              </li>
+
+              <li>
+                Relaxation at 1000 hours: Less than 2.5% at 70% Minimum Ultimate Tensile Strength
+              </li>
+
+              <li>
+                Weight of Bare Strand: More than 0.78/1.1 kg/m
+              </li>
+
             </ul>
           </div>
 
@@ -600,7 +633,7 @@ export default function MaterialsPage() {
           </p>
 
           <p className="text-lg md:text-2xl min-[2000px]:text-4xl leading-relaxed text-gray-700 font-medium text-justify mb-4 indent-4 md:indent-12">
-            They are manufactured with dual hardness characteristics—a hardened outer surface for strong strand grip and a tougher, ductile core to absorb stresses—ensuring reliable performance under high prestressing forces.
+            They are manufactured with dual hardness characteristics a hardened outer surface for strong strand grip and a tougher, ductile core to absorb stresses ensuring reliable performance under high prestressing forces.
           </p>
 
           <p className="text-lg md:text-2xl min-[2000px]:text-4xl leading-relaxed text-gray-700 font-medium text-justify mb-4 indent-4 md:indent-12">
@@ -608,16 +641,20 @@ export default function MaterialsPage() {
           </p>
         </div>
 
-        {/* ================= TECHNICAL PROPERTIES ================= */}
-        {/* <h3 className="text-[clamp(1.6rem,_4vw,_3rem)] min-[2000px]:text-[5rem] min-[2000px]:ml-60 font-black text-[#1a2a5e] font-anton mx-auto mb-8 min-[2000px]:mb-12 text-center sm:text-left sm:pl-16 relative z-10 md:pl-18">
-          Hardness Requirements
-        </h3> */}
-
         {/* ================= CONTENT + IMAGE ================= */}
         <div className="relative z-10 max-w-7xl min-[2000px]:max-w-[1800px] mx-auto flex flex-col-reverse lg:flex-row items-center">
 
           {/* LEFT CONTENT */}
           <div className="lg:w-1/2 lg:pr-16 mb-12 lg:mb-0">
+            <h3 className="text-[clamp(1.6rem,_4vw,_3rem)] min-[2000px]:text-[5rem] font-black text-[#1a2a5e] font-anton mx-auto mb-8 min-[2000px]:mb-12 text-center sm:text-left relative z-10">
+              Hardness Requirements
+            </h3>
+            <ul className="space-y-4 text-justify min-[2000px]:space-y-8 list-disc pl-6 text-gray-900 font-medium">
+              <li className="text-lg md:text-2xl min-[2000px]:text-3xl">
+                <strong>At Surface:</strong> 56-65 HRC
+              </li>
+            </ul>
+
             <h3 className="text-[clamp(1.6rem,_4vw,_3rem)] min-[2000px]:text-[5rem] font-black text-[#1a2a5e] font-anton mx-auto mt-14 min-[2000px]:mt-24 mb-8 min-[2000px]:mb-12 text-center sm:text-left relative z-10">
               Material Grades
             </h3>
@@ -625,9 +662,9 @@ export default function MaterialsPage() {
             <ul className="space-y-4 text-justify min-[2000px]:space-y-8 list-disc pl-6 text-gray-900 font-medium">
 
               <li className="text-lg md:text-2xl min-[2000px]:text-3xl">
-                <strong>Material:</strong> Wedges may be manufactured from the following alloy steels
+                <strong>Material:</strong> 20MnCr5
               </li>
-
+              {/* 
               <li className="text-lg md:text-2xl min-[2000px]:text-3xl pl-6 list-none">
                 <ul className="list-disc pl-6 space-y-2 min-[2000px]:space-y-4 list-none">
                   <li>✔12L14</li>
@@ -641,7 +678,7 @@ export default function MaterialsPage() {
               <li className="text-lg md:text-2xl min-[2000px]:text-3xl">
                 After heat treatment, these alloys provide a wear-resistant surface
                 combined with a tough, load-tolerant core
-              </li>
+              </li> */}
 
             </ul>
 
@@ -1085,10 +1122,10 @@ export default function MaterialsPage() {
             <ul className="space-y-4 text-justify min-[2000px]:space-y-8 list-disc pl-6 text-gray-900 font-medium">
 
               <li className="text-lg md:text-2xl min-[2000px]:text-3xl">
-                <strong>Core Hardness:</strong> Minimum 20 HRC
+                <strong>At Surface:</strong> 50 – 65 HRC
               </li>
 
-              <li className="text-lg md:text-2xl min-[2000px]:text-3xl">
+              {/* <li className="text-lg md:text-2xl min-[2000px]:text-3xl">
                 Provides sufficient toughness to prevent cracking under load
               </li>
 
@@ -1103,7 +1140,7 @@ export default function MaterialsPage() {
               <li className="text-lg md:text-2xl min-[2000px]:text-3xl">
                 This controlled hardness gradient allows strong strand locking
                 without inducing brittle failure
-              </li>
+              </li> */}
 
             </ul>
 
@@ -1114,9 +1151,9 @@ export default function MaterialsPage() {
             <ul className="space-y-4 text-justify min-[2000px]:space-y-8 list-disc pl-6 text-gray-900 font-medium">
 
               <li className="text-lg md:text-2xl min-[2000px]:text-3xl">
-                <strong>Material:</strong> Wedges may be manufactured from the following alloy steels
+                {/* <strong>Material Grades:</strong>*/} IS: 9175 (Part 20)–1986 Grade 20MnCr5 or 20CrMnTiH or EN1A or 12L14
               </li>
-
+              {/* 
               <li className="text-lg md:text-2xl min-[2000px]:text-3xl pl-6 list-none">
                 <ul className="list-disc pl-6 space-y-2 min-[2000px]:space-y-4 list-none">
                   <li>✔12L14</li>
@@ -1129,7 +1166,7 @@ export default function MaterialsPage() {
               <li className="text-lg md:text-2xl min-[2000px]:text-3xl">
                 After heat treatment, these alloys provide a wear-resistant surface
                 combined with a tough, load-tolerant core
-              </li>
+              </li> */}
 
             </ul>
 

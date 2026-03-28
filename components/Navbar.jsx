@@ -15,6 +15,7 @@ import {
   FaTimes,
   FaChevronDown,
   FaChevronRight,
+  FaYoutube,
 } from 'react-icons/fa';
 import { FaXTwitter } from 'react-icons/fa6';
 import { type } from 'os';
@@ -97,6 +98,7 @@ const Navbar = () => {
       // Close search popup if clicked outside
       if (isSearchOpen && searchPopupEl && !searchPopupEl.contains(e.target)) {
         setIsSearchOpen(false);
+        window.dispatchEvent(new CustomEvent('searchPopupToggle', { detail: { isSearchOpen: false } }));
       }
 
       if (!dropdownEl) return;
@@ -364,7 +366,8 @@ const Navbar = () => {
               { Icon: FaFacebookF, href: "https://www.facebook.com/UnifiedPTS/" },
               { Icon: FaInstagram, href: "https://www.instagram.com/unified_pts_llp/?hl=en" },
               { Icon: FaXTwitter, href: "https://x.com/Unified_PTS_LLP" },
-              { Icon: FaLinkedinIn, href: "https://www.linkedin.com/company/unifiedpt/?viewAsMember=true" }
+              { Icon: FaLinkedinIn, href: "https://www.linkedin.com/company/unifiedpt/?viewAsMember=true" },
+              { Icon: FaYoutube, href: "https://www.youtube.com/@UNIFIEDPTS1915" }
             ].map(({ Icon, href }, i) => (
               <a
                 key={i}

@@ -91,7 +91,7 @@ export default function AboutUs() {
               const eventImages = Array.isArray(event.image) ? event.image : [event.image];
 
               eventImages.forEach(img => {
-                const fullImageUrl = img ? `${baseUrl}/storage/${img}` : '/placeholder-event.jpg';
+                const fullImageUrl = img ? `${baseUrl}/storage/${img}` : '/placeholder-event.png';
                 imagesByYear[year].push(fullImageUrl);
               });
             }
@@ -659,7 +659,7 @@ export default function AboutUs() {
       >
         {/* Background Image */}
         <img
-          src="/assets/structural-geometry/flat_slab_with_drop_cap.jpeg"
+          src="/assets/structural-geometry/flat_slab_with_drop_cap.png"
           alt="Who We Are Background"
           className="absolute top-0 left-0 w-full h-full object-cover z-0 opacity-20"
         />
@@ -1904,7 +1904,7 @@ export default function AboutUs() {
           </h2>
 
           {/* Main Content - Image Top (Mobile/MD), Image Right (Large) */}
-          <div className="flex flex-col lg:flex-row gap-[40px] lg:gap-[60px] items-center lg:items-start mb-[40px] md:mb-[60px]">
+          <div className="flex flex-col lg:flex-row-reverse gap-[40px] lg:gap-[60px] items-center lg:items-start mb-[40px] md:mb-[60px]">
             {/* ISO Logo */}
             <div className="w-full lg:flex-[0_0_400px] flex justify-center items-start pt-[20px] min-[2500px]:flex-[0_0_900px] min-[2500px]:pt-0 min-[2500px]:items-center">
               <img

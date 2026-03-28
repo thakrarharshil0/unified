@@ -16,18 +16,14 @@ const features = [
 const cards = [
   {
     id: 1,
-    image: "assets/Photos/PROJECT VISUALS OF UNBONDED PT SYSTEM/18.jpeg",
+    image: "assets/Photos/PROJECT VISUALS OF UNBONDED PT SYSTEM/11.png",
     title: "UNBONDED POST-TENSIONING",
-    description:
-      "Unbonded PT provides faster construction cycles, flexible floor planning, and efficient performance for modern high-rise and commercial projects.",
     link: "/technology#unbonded-tensioning-systems"
   },
   {
     id: 2,
-    image: "assets/Photos/PROJECT VISUALS OF BONDED PT SYSTEM/1.jpg",
+    image: "assets/Photos/PROJECT VISUALS OF BONDED PT SYSTEM/6.png",
     title: "BONDED POST-TENSIONING",
-    description:
-      "Bonded PT offers superior crack control, long-term durability, and high structural reliability for slabs that demand precision and safety under heavy loads.",
     link: "/technology#bonded-tensioning-systems"
   },
 ];
@@ -149,9 +145,6 @@ const WhoWeAre = () => {
                       </div>
                       <div className="system-card-content">
                         <h3 className="system-card-title">{card.title}</h3>
-                        <p className="system-card-description">
-                          {card.description}
-                        </p>
                         <Link href={card.link} className="inline-flex items-center justify-center gap-1.5 px-3 py-1.5 bg-white rounded-full text-[#0095AA] text-xs font-semibold cursor-pointer transition-all duration-300 hover:gap-2 hover:bg-gray-100 hover:scale-105 mt-2">
                           <span className="flex items-center justify-center w-4 h-4 bg-[#0095AA] text-white rounded-full">
                             <svg

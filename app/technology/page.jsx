@@ -26,18 +26,18 @@ const geometryImages = {
 
 const geometryContent = {
   'FLAT PLATE': {
-    image: '/assets/structural-geometry/Flat-plate.jpeg',
+    image: '/assets/structural-geometry/Flat-plate.png',
     description: 'A flat plate is a reinforced concrete slab directly supported by columns without beams. It provides a clean structural layout and allows flexible architectural planning & MEP services.',
     appearance: [
       'Slab rests directly on columns',
       'Ceiling surface appears flat and smooth',
       'No beams are visible',
-      'More clean heights'
+      'More clear heights'
     ],
     usage: 'Associat Podiums, Offices, Hotels, Parking structures'
   },
-  'FLAT SLAB WITH DROP CAP': {
-    image: '/assets/structural-geometry/flat_slab_with_drop_cap.jpeg',
+  'FLAT SLAB WITH DROP PANELS (DROP CAP)': {
+    image: '/assets/structural-geometry/flat_slab_with_drop_cap.png',
     description: 'A flat slab with drop panels includes thickened slab portions around column heads to increase shear strength and improve load distribution. It provides a clean structural layout and allows flexible architectural planning & MEP services.',
     appearance: [
       'Slab is mostly flat across the floor',
@@ -47,7 +47,7 @@ const geometryContent = {
     usage: 'Commercial buildings, malls, offices, and structures with higher load requirements'
   },
   'PT BEAM WITH PT SLAB': {
-    image: '/assets/structural-geometry/pt_beam_with_pt_slab.jpeg',
+    image: '/assets/structural-geometry/pt_beam_with_pt_slab.png',
     description: 'This system uses post-tensioning in both beams and slabs to improve structural efficiency, control cracking, and allow longer spans & high loading.',
     appearance: [
       'Beams and slabs form a structural grid system',
@@ -57,14 +57,14 @@ const geometryContent = {
     usage: 'Industrial buildings, hospitals, schools, large span and high loading caring floors.'
   },
   'PT BEAM WITH RCC SLAB': {
-    image: '/assets/structural-geometry/pt_beam_with_rcc_slab.jpeg',
+    image: '/assets/structural-geometry/pt_beam_with_rcc_slab.png',
     description: 'In this system, post-tensioned beams support the conventional RCC slab, combining span efficiency with standard slab construction.',
     appearance: [
       'Post-tensioned beams act as the main structural members',
       'RCC slab is supported to the beams',
       'Beam grid pattern is visible in the structure'
     ],
-    usage: 'function halls, showrooms, Bunglows and mixed structural systems.'
+    usage: 'Function halls, showrooms, Bunglows and mixed structural systems.'
   }
 };
 
@@ -126,13 +126,13 @@ const Technology = () => {
 
   const bondedGalleryImages = Array.from({ length: 9 }, (_, i) => ({
     id: i + 1,
-    imgSrc: `/assets/Photos/PROJECT VISUALS OF BONDED PT SYSTEM/${i + 1}.jpg`,
+    imgSrc: `/assets/Photos/PROJECT VISUALS OF BONDED PT SYSTEM/${i + 1}.png`,
     title: `Bonded PT System Image ${i + 1}`
   }));
 
   const unbondedGalleryImages = Array.from({ length: 9 }, (_, i) => ({
     id: i + 1,
-    imgSrc: `/assets/Photos/PROJECT VISUALS OF UNBONDED PT SYSTEM/${i + 1}.jpg`,
+    imgSrc: `/assets/Photos/PROJECT VISUALS OF UNBONDED PT SYSTEM/${i + 1}.png`,
     title: `Unbonded PT System Image ${i + 1}`
   }));
 
@@ -149,7 +149,7 @@ const Technology = () => {
         "All PT materials—including strands, ducts, anchorages, wedges, and accessories—are inspected, measured, and cut according to approved shop drawings.",
         "Each component is labeled, bundled, and dispatched to site with proper identification to avoid installation errors and ensure smooth workflow at the slab level."
       ],
-      imgSrc: "/assets/bonded-methodology/Material Dispatch.jpeg",
+      imgSrc: "/assets/bonded-methodology/Material_Dispatch.png",
     },
     {
       id: 2,
@@ -159,7 +159,7 @@ const Technology = () => {
         "The anchorage zone reinforcement, bottom steel, and cover blocks are checked to ensure they meet PT requirements for bursting, spalling, and bearing stresses.",
         "A final pre-PT inspection ensures that the slab is ready for tendon installation."
       ],
-      imgSrc: "/assets/bonded-methodology/Shuttering & Bar binding.jpeg",
+      imgSrc: "/assets/bonded-methodology/Shuttering_Bar_binding.png",
     },
     {
       id: 3,
@@ -168,7 +168,7 @@ const Technology = () => {
         "Once the formwork and bottom reinforcement are finalized, PT ducts and anchorages are positioned according to the tendon profile.",
         "All ducts are securely supported on chairs, tied to reinforcement, and aligned to maintain the designed curvature and geometry."
       ],
-      imgSrc: "/assets/bonded-methodology/Installation.jpeg",
+      imgSrc: "/assets/bonded-methodology/Installation.png",
     },
     {
       id: 4,
@@ -177,7 +177,7 @@ const Technology = () => {
         "High-tensile steel strands are carefully pushed or pulled through the installed ducts. We ensure that tendons are not twisted or damaged during this critical phase.",
         "Shear reinforcement, trimming bars, temperature steel, and anchorage confinement reinforcement are placed to ensure proper load distribution and structural safety."
       ],
-      imgSrc: "/assets/bonded-methodology/Top Steel.png",
+      imgSrc: "/assets/bonded-methodology/Top_Steel.png",
     },
     {
       id: 5,
@@ -187,7 +187,7 @@ const Technology = () => {
         "Vibrators are used with controlled intensity to eliminate voids without damaging ducts.",
         "Post-concreting checks confirm that the tendon profile is intact and the anchorage areas are properly compacted."
       ],
-      imgSrc: "/assets/bonded-methodology/Concreting process.png",
+      imgSrc: "/assets/bonded-methodology/Concreting_process.png",
     },
     {
       id: 6,
@@ -198,7 +198,7 @@ const Technology = () => {
         "The elongations are measured, matched with theoretical values, and recorded for quality verification.",
         "Any deviations beyond permissible limits are investigated and corrected immediately."
       ],
-      imgSrc: "/assets/bonded-methodology/Stressing activity.png",
+      imgSrc: "/assets/bonded-methodology/Stressing_activity.png",
     },
     {
       id: 7,
@@ -207,7 +207,7 @@ const Technology = () => {
         "Once stressing is completed and verified, the protruding strand length beyond the anchor head is cut using an approved cutting method.",
         "The cut length is documented to maintain stressing records and ensure proper sealing before grouting."
       ],
-      imgSrc: "/assets/bonded-methodology/cutting of gripping length.png",
+      imgSrc: "/assets/bonded-methodology/cutting_of_gripping_length.png",
     },
     {
       id: 8,
@@ -216,7 +216,7 @@ const Technology = () => {
         "Cementitious grout is injected under pressure through the ducts to fully encapsulate the strands and eliminate air gaps.",
         "Proper grouting forms a permanent bond between steel and concrete, ensuring durability, corrosion protection, and long-term structural performance."
       ],
-      imgSrc: "/assets/bonded-methodology/Grouting.jpeg",
+      imgSrc: "/assets/bonded-methodology/Grouting.png",
     },
   ];
 
@@ -228,7 +228,7 @@ const Technology = () => {
         "All monostrand tendons, anchor assemblies, wedges, plates and accessories are inspected against shop drawings and delivery documents.",
         "Strands (factory-greased and sheathed) are measured, cut to specified lengths, labelled and dispatched to site with clear identification to prevent mix-ups. Ensure grease quantity and sheathing integrity are checked before shipping."
       ],
-      imgSrc: "/assets/unbonded-methodology/Material cutting & Dispatch.jpeg",
+      imgSrc: "/assets/unbonded-methodology/Material_cutting_Dispatch.png",
     },
     {
       id: 2,
@@ -236,7 +236,7 @@ const Technology = () => {
       description: [
         "Formwork is set and reinforced as per drawings. Bottom reinforcement, anchorage confinement cages and bursting bars are placed and tied.",
         "Verify anchorage reinforcement and plate positions to resist bearing and splitting stresses from the unbonded anchor block.",],
-      imgSrc: "/assets/unbonded-methodology/Shuttering & Bar binding.jpeg",
+      imgSrc: "/assets/unbonded-methodology/Shuttering_Bar_binding.png",
     },
     {
       id: 3,
@@ -244,7 +244,7 @@ const Technology = () => {
       description: [
         "After placing of bottom steel, PT cables are profiled on chair support and fixed at both ends.",
       ],
-      imgSrc: "/assets/unbonded-methodology/Installation.jpeg",
+      imgSrc: "/assets/unbonded-methodology/Installation.png",
     },
     {
       id: 4,
@@ -253,7 +253,7 @@ const Technology = () => {
         "Place and tie top reinforcement, ensuring tendon geometry remains intact.",
         "Avoid movement of tendons during bar placement; use temporary restraining ties if necessary to hold tendons on chairs and preserve eccentricity."
       ],
-      imgSrc: "/assets/unbonded-methodology/Top Steel.jpeg",
+      imgSrc: "/assets/unbonded-methodology/Top_Steel.png",
     },
     {
       id: 5,
@@ -262,7 +262,7 @@ const Technology = () => {
         "Cast concrete with controlled placement and vibration. Take precautions to prevent sheathing abrasion or damage during consolidation.",
         "Confirm tendon positions after concreting (pre-pour checks) and protect exposed anchorage zones as required."
       ],
-      imgSrc: "/assets/unbonded-methodology/Concreting process.jpeg",
+      imgSrc: "/assets/unbonded-methodology/Concreting_process.png",
     },
     {
       id: 6,
@@ -271,7 +271,7 @@ const Technology = () => {
         "Stress tendons when concrete reaches the specified strength (as per design/cube tests).",
         "Use calibrated hydraulic jacks to tension each monostrand to the specified force. Record elongations and jack pressure, check against theoretical values and lock off the anchor wedges per manufacturer procedure."
       ],
-      imgSrc: "/assets/unbonded-methodology/Stressing.jpeg",
+      imgSrc: "/assets/unbonded-methodology/Stressing.png",
     },
     {
       id: 7,
@@ -1292,7 +1292,7 @@ const Technology = () => {
                       </div>
                       <div className="md:col-span-1 md:px-8 md:border-r border-gray-200 py-8 md:py-0 border-b md:border-b-0">
                         <h3 className="text-[#0095AA] font-black text-xl lg:text-2xl mb-4 min-[2500px]:text-6xl min-[2500px]:mb-12 uppercase tracking-wider border-b-2 border-[#0095AA]/20 pb-2 inline-block whitespace-nowrap">Structural Appearance</h3>
-                        <ul className="list-disc pl-5 space-y-2 text-gray-700 text-lg min-[2500px]:text-4xl min-[2500px]:space-y-6">
+                        <ul className="list-disc text-justify pl-5 space-y-2 text-gray-700 text-lg min-[2500px]:text-4xl min-[2500px]:space-y-6">
                           {activeData.appearance.map((item, index) => (
                             <li key={index}>{item}</li>
                           ))}
@@ -1300,7 +1300,7 @@ const Technology = () => {
                       </div>
                       <div className="md:col-span-1 md:pl-8 pt-8 md:pt-0">
                         <h3 className="text-[#0095AA] font-black text-xl lg:text-2xl mb-4 min-[2500px]:text-6xl min-[2500px]:mb-12 uppercase tracking-wider border-b-2 border-[#0095AA]/20 pb-2 inline-block whitespace-nowrap">Where It Is Used</h3>
-                        <p className="text-gray-700 font-medium text-lg min-[2500px]:text-4xl">{activeData.usage}</p>
+                        <p className="text-gray-700 leading-relaxed text-justify text-lg min-[2500px]:text-4xl">{activeData.usage}</p>
                       </div>
                     </div>
                   </motion.div>

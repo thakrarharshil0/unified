@@ -17,6 +17,7 @@ import { useEffect, useState } from "react";
 import PremiumSpotlightText from "@/components/PremiumSpotlightText";
 import 'leaflet/dist/leaflet.css';
 import { useRef } from "react";
+import BrochureModal from "@/components/BrochureModal";
 
 
 
@@ -29,6 +30,7 @@ export default function ContactPage() {
   const mapRef = useRef(null);
   const mapInstance = useRef(null);
   const markersRef = useRef({});
+  const [isBrochureModalOpen, setIsBrochureModalOpen] = useState(false);
 
   useEffect(() => {
     if (typeof window === 'undefined') return;
@@ -385,17 +387,22 @@ export default function ContactPage() {
                 <p className="text-gray-600 text-lg md:text-xl min-[2500px]:text-4xl font-medium">For more information, download our brochure now.</p>
               </div>
             </div>
-            <a
-              href="/assets/Unified_Brochure.pdf"
-              download
+            <button
+              onClick={() => setIsBrochureModalOpen(true)}
               className="flex items-center justify-center gap-3 bg-white border-2 border-[#0095aa] text-[#0095aa] hover:bg-[#0095aa] hover:text-white px-10 py-4 rounded-xl font-black text-xl min-[2500px]:text-5xl transition-all duration-300 shadow-sm hover:scale-[1.05] group"
             >
               Download
               <Download size={20} className="group-hover:translate-y-1 transition-transform min-[2500px]:size-10" />
-            </a>
+            </button>
           </div>
         </div>
       </div>
+
+      <BrochureModal
+        isOpen={isBrochureModalOpen}
+        onClose={() => setIsBrochureModalOpen(false)}
+        brochurePath="/assets/Unified_Brochure.pdf"
+      />
 
       <style jsx>{`
         @keyframes tickerScroll {

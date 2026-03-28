@@ -21,28 +21,28 @@ const Hero = () => {
 
   const slides = [
     {
-      image: "assets/Photos/PROJECT VISUALS OF BONDED PT SYSTEM/2.jpg",
+      image: "assets/Photos/PROJECT VISUALS OF BONDED PT SYSTEM/2.png",
       title: " India’s Trusted Company in Post-Tensioning",
       highlight: "",
       description:
         "Stronger structures, faster construction, and smarter use of materials.",
     },
     {
-      image: "assets/Photos/PROJECT VISUALS OF UNBONDED PT SYSTEM/8.jpg",
+      image: "assets/Photos/PROJECT VISUALS OF UNBONDED PT SYSTEM/8.png",
       title: " Precision You Can Rely On",
       highlight: "",
       description:
         "Every system is designed and delivered with strict quality standards.",
     },
     {
-      image: "assets/Photos/PROJECT VISUALS OF BONDED PT SYSTEM/5.jpg",
+      image: "assets/Photos/PROJECT VISUALS OF BONDED PT SYSTEM/5.png",
       title: "Engineering That Supports Modern Architecture",
       highlight: "",
       description:
         "Smart PT solutions built for today’s complex structures.",
     },
     {
-      image: "assets/Photos/PROJECT VISUALS OF UNBONDED PT SYSTEM/7.jpg",
+      image: "assets/Photos/PROJECT VISUALS OF UNBONDED PT SYSTEM/7.png",
       title: "Innovating the Future of Construction",
       highlight: "",
       description:
@@ -50,7 +50,7 @@ const Hero = () => {
     },
     {
       image:
-        "assets/Photos/PROJECT VISUALS OF BONDED PT SYSTEM/7.jpg",
+        "assets/Photos/PROJECT VISUALS OF BONDED PT SYSTEM/7.png",
       title: "Stronger Slabs. Longer Spans. Less Concrete.",
       highlight: "",
       description:
@@ -58,7 +58,7 @@ const Hero = () => {
     },
     {
       image:
-        "assets/Photos/PROJECT VISUALS OF UNBONDED PT SYSTEM/10.jpeg",
+        "assets/Photos/PROJECT VISUALS OF UNBONDED PT SYSTEM/10.png",
       title: "Efficient Structures Start with Smart PT design.",
       highlight: "",
       description:
@@ -93,7 +93,7 @@ const Hero = () => {
   }, [hasAnimated]);
 
   const animateNumbers = () => {
-    const targets = { years: 8, projects: 380, cities: 84, engineers: 171 };
+    const targets = { years: 8, projects: 580, cities: 84, engineers: 171 };
     const duration = 2500;
     let start = null;
 
@@ -217,7 +217,7 @@ const Hero = () => {
               {[
                 [animatedNumbers.years, "Years of Experience"],
                 [animatedNumbers.projects, "Projects Completed"],
-                [animatedNumbers.cities, "Cities of Work"],
+                [animatedNumbers.cities, "Cities Covered"],
                 [animatedNumbers.engineers, "Engineers & Architects"],
               ].map(([num, label], i) => (
                 <div
@@ -251,7 +251,7 @@ const Hero = () => {
 
                 <div className="w-14 h-14 sm:w-16 sm:h-16 md:w-20 md:h-20 lg:w-16 lg:h-16 2xl:w-24 2xl:h-24 min-[1800px]:w-24 min-[1800px]:h-24 rounded-xl overflow-hidden shrink-0 min-[2500px]:w-32 min-[2500px]:h-32 min-[2500px]:rounded-2xl">
                   <img
-                    src="assets/Photos/PROJECT VISUALS OF UNBONDED PT SYSTEM/11.jpeg"
+                    src="assets/Photos/PROJECT VISUALS OF UNBONDED PT SYSTEM/11.png"
                     alt="PT System 2"
                     className="w-full h-full object-cover"
                   />
@@ -259,7 +259,7 @@ const Hero = () => {
 
                 <div className="w-14 h-14 sm:w-16 sm:h-16 md:w-20 md:h-20 lg:w-16 lg:h-16 2xl:w-24 2xl:h-24 min-[1800px]:w-24 min-[1800px]:h-24 rounded-xl overflow-hidden shrink-0 min-[2500px]:w-32 min-[2500px]:h-32 min-[2500px]:rounded-2xl">
                   <img
-                    src="assets/Photos/PROJECT VISUALS OF BONDED PT SYSTEM/6.jpg"
+                    src="assets/Photos/PROJECT VISUALS OF BONDED PT SYSTEM/6.png"
                     alt="PT System 1"
                     className="w-full h-full object-cover"
                   />

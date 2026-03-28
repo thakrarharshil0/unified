@@ -169,7 +169,7 @@ export default function ClientsPage() {
               {/* Light Effect Background Image */}
               <div className="absolute inset-0 opacity-80 mix-blend-screen pointer-events-none">
                 <Image
-                  src="/assets/light-effect.jpeg"
+                  src="/assets/light-effect.png"
                   alt="light effect"
                   fill
                   className="object-cover"
@@ -188,7 +188,7 @@ export default function ClientsPage() {
                 </p>
 
                 <h2 className="text-5xl sm:text-6xl md:text-[72px] 3xl:text-[120px] leading-none font-extrabold mb-4 md:mb-6 text-center">
-                  5000<span className="text-2xl sm:text-3xl align-top">+</span>
+                  150<span className="text-2xl sm:text-3xl align-top">+</span>
                 </h2>
 
                 <h3 className="text-xl sm:text-2xl 3xl:text-4xl font-semibold mb-6 md:mb-8 text-center">

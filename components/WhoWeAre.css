@@ -56,7 +56,7 @@
   left: -5%;
   width: 45%;
   height: 80%;
-  background: url('/assets/structural-geometry/flat_slab_with_drop_cap.jpeg') no-repeat center center;
+  background: url('/assets/structural-geometry/flat_slab_with_drop_cap.png') no-repeat center center;
   background-size: contain;
   opacity: 0.2;
   filter: blur(1px);
@@ -71,7 +71,7 @@
   right: -5%;
   width: 45%;
   height: 80%;
-  background: url('/assets/structural-geometry/flat_slab_with_drop_cap.jpeg') no-repeat center center;
+  background: url('/assets/structural-geometry/flat_slab_with_drop_cap.png') no-repeat center center;
   background-size: contain;
   opacity: 0.3;
   filter: blur(1px);

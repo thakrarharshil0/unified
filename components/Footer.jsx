@@ -8,6 +8,7 @@ import {
   FaPhone,
   FaEnvelope,
   FaMapMarkerAlt,
+  FaYoutube,
 } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 
@@ -40,7 +41,7 @@ const Footer = () => {
     <footer
       className="relative text-white"
       style={{
-        backgroundImage: `url(/assets/footer-bg.jpeg)`,
+        backgroundImage: `url(/assets/footer-bg.png)`,
         backgroundSize: 'cover',
         backgroundPosition: 'top',
       }}
@@ -60,7 +61,7 @@ const Footer = () => {
                 className="h-14 min-[2500px]:h-28 w-auto object-contain brightness-0 invert mx-auto lg:mx-0 mb-6"
               />
               <p className="text-base min-[2500px]:text-2xl font-medium text-slate-200 mb-2 leading-tight">
-                India&apos;s trusted authority in Bonded & <br /> Unbonded Post-Tensioning Systems.
+                India&apos;s trusted Company in Unbonded & <br /> Bonded Post-Tensioning Systems.
               </p>
               <p className="text-xs min-[2500px]:text-lg uppercase tracking-widest text-[#0095AA] font-bold mb-4">
                 In Partnership With
@@ -139,7 +140,8 @@ const Footer = () => {
                 { Icon: FaFacebookF, href: "https://www.facebook.com/UnifiedPTS/" },
                 { Icon: FaInstagram, href: "https://www.instagram.com/unified_pts_llp/?hl=en" },
                 { Icon: FaXTwitter, href: "https://x.com/Unified_PTS_LLP" },
-                { Icon: FaLinkedinIn, href: "https://www.linkedin.com/company/unifiedpt/?viewAsMember=true" }
+                { Icon: FaLinkedinIn, href: "https://www.linkedin.com/company/unifiedpt/?viewAsMember=true" },
+                { Icon: FaYoutube, href: "https://www.youtube.com/@UNIFIEDPTS1915" }
               ].map(
                 ({ Icon, href }, i) => (
                   <a
@@ -168,7 +170,7 @@ const Footer = () => {
             <Link href="/privacy-policy" className="hover:text-[#0095AA]">
               Privacy Policy
             </Link>
-            <span>|</span>
+            {/* <span>|</span> */}
             {/* <Link href="/terms" className="hover:text-[#0095AA]">
               Terms & Conditions
             </Link> */}
