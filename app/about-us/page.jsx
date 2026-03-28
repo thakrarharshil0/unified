@@ -115,47 +115,18 @@ export default function AboutUs() {
   }, []);
 
   const projects = [
-    // Mumbai Projects
-    { id: 1, name: 'Marina Complex', city: 'mumbai', lat: 19.0760, lng: 72.8777, type: 'Mixed-Use', image: 'https://images.unsplash.com/photo-1580587771525-78b9dba3b914?auto=format&fit=crop&q=80&w=800', status: 'Completed', description: 'A premium residential development located near the iconic Marina Beach.' },
-    { id: 2, name: 'Andheri Business Park', city: 'mumbai', lat: 19.1136, lng: 72.8697, type: 'Commercial', image: 'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&q=80&w=800', status: 'Ongoing', description: 'A premium commercial development in Andheri.' },
-    { id: 11, name: 'Worli Skyline', city: 'mumbai', lat: 19.0176, lng: 72.8161, type: 'Residential', image: 'https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&q=80&w=800', status: 'Completed', description: 'Luxurious apartments with sea views in Worli.' },
-    { id: 12, name: 'Bandra Tech Center', city: 'mumbai', lat: 19.0596, lng: 72.8295, type: 'Commercial', image: 'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&q=80&w=800', status: 'Ongoing', description: 'Modern office spaces in Bandra.' },
-
-    // Pune Projects
-    { id: 3, name: 'Oxford Business Hub', city: 'pune', lat: 18.5204, lng: 73.8567, type: 'Commercial', image: 'https://images.unsplash.com/photo-1582407947304-fd86f028f716?auto=format&fit=crop&q=80&w=800', status: 'Ongoing', description: 'A modern commercial complex in the heart of Pune.' },
-    { id: 4, name: 'Hinjewadi Tech Park', city: 'pune', lat: 18.5912, lng: 73.7389, type: 'IT Park', image: 'https://images.unsplash.com/photo-1565008576549-57569a49371d?auto=format&fit=crop&q=80&w=800', status: 'Completed', description: 'A sprawling IT park in the Hinjewadi area.' },
-    { id: 13, name: 'Koregaon Park Residency', city: 'pune', lat: 18.5362, lng: 73.8940, type: 'Residential', image: 'https://images.unsplash.com/photo-1580587771525-78b9dba3b914?auto=format&fit=crop&q=80&w=800', status: 'Completed', description: 'Premium living in Koregaon Park.' },
-    { id: 14, name: 'Viman Nagar Plaza', city: 'pune', lat: 18.5679, lng: 73.9143, type: 'Commercial', image: 'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&q=80&w=800', status: 'Ongoing', description: 'Strategic business location near the airport.' },
-
-    // Indore Projects
-    { id: 5, name: 'Vijay Nagar Heights', city: 'indore', lat: 22.7533, lng: 75.8937, type: 'Residential', image: 'https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&q=80&w=800', status: 'Completed', description: 'A luxury residential project in Vijay Nagar.' },
-    { id: 6, name: 'Super Corridor Plaza', city: 'indore', lat: 22.7196, lng: 75.8577, type: 'Commercial', image: 'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&q=80&w=800', status: 'Ongoing', description: 'Modern commercial development on the Super Corridor.' },
-    { id: 15, name: 'Rajwada Commercial Center', city: 'indore', lat: 22.7185, lng: 75.8550, type: 'Commercial', image: 'https://images.unsplash.com/photo-1582268611958-ebfd161ef9cf?auto=format&fit=crop&q=80&w=800', status: 'Completed', description: 'Historic center business development.' },
-    { id: 16, name: 'Silicon City Towers', city: 'indore', lat: 22.6842, lng: 75.8202, type: 'Residential', image: 'https://images.unsplash.com/photo-1580587771525-78b9dba3b914?auto=format&fit=crop&q=80&w=800', status: 'Ongoing', description: 'New age living in Indore.' },
-
-    // Vadodara Projects
-    { id: 7, name: 'Sayajigunj Business Center', city: 'vadodara', lat: 22.3106, lng: 73.1926, type: 'Commercial', image: 'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&q=80&w=800', status: 'Completed', description: 'State-of-the-art business center in Vadodara.' },
-    { id: 8, name: 'Alkapuri Residency', city: 'vadodara', lat: 22.3072, lng: 73.1812, type: 'Residential', image: 'https://images.unsplash.com/photo-1580587771525-78b9dba3b914?auto=format&fit=crop&q=80&w=800', status: 'Ongoing', description: 'Premium residential apartments in Alkapuri.' },
-    { id: 17, name: 'Gotri Tech Hub', city: 'vadodara', lat: 22.3180, lng: 73.1360, type: 'IT Park', image: 'https://images.unsplash.com/photo-1565008576549-57569a49371d?auto=format&fit=crop&q=80&w=800', status: 'Completed', description: 'Modern IT infrastructure in Gotri.' },
-    { id: 18, name: 'Fatehgunj Plaza', city: 'vadodara', lat: 22.3210, lng: 73.1930, type: 'Commercial', image: 'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&q=80&w=800', status: 'Ongoing', description: 'Vibrant commercial space in Fatehgunj.' },
-
-    // Nashik Projects
-    { id: 9, name: 'Panchavati Heights', city: 'nashik', lat: 20.0113, lng: 73.7902, type: 'Residential', image: 'https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&q=80&w=800', status: 'Completed', description: 'Luxury residential project in Panchavati.' },
-    { id: 10, name: 'Nashik IT Hub', city: 'nashik', lat: 19.9975, lng: 73.7898, type: 'IT Park', image: 'https://images.unsplash.com/photo-1565008576549-57569a49371d?auto=format&fit=crop&q=80&w=800', status: 'Ongoing', description: 'Modern IT park development in Nashik.' },
-    { id: 19, name: 'Indira Nagar Plaza', city: 'nashik', lat: 19.9723, lng: 73.7932, type: 'Commercial', image: 'https://images.unsplash.com/photo-1582268611958-ebfd161ef9cf?auto=format&fit=crop&q=80&w=800', status: 'Completed', description: 'New business hub in Indira Nagar.' },
-    { id: 20, name: 'Gangapur Residency', city: 'nashik', lat: 20.0165, lng: 73.7540, type: 'Residential', image: 'https://images.unsplash.com/photo-1580587771525-78b9dba3b914?auto=format&fit=crop&q=80&w=800', status: 'Ongoing', description: 'Lakeside residential development.' },
+    { id: 21, name: 'Swastik Divine', city: 'indore', lat: 22.7196, lng: 75.8577, type: 'Residential', image: '/compressed-projects/2526-1091SwastikDivineIndore.jpeg' },
+    { id: 25, name: 'Monarch royal park', city: 'indore', lat: 22.7196, lng: 75.8577, type: 'Residential', image: '/compressed-projects/Monarchroyalparkindor.jpeg' },
+    { id: 26, name: 'Spectrum mall', city: 'indore', lat: 22.7196, lng: 75.8577, type: 'Commercial', image: '/compressed-projects/Spectrummallindore.jpeg' },
+    { id: 22, name: 'Maruti Showroom', city: 'pune', lat: 18.5204, lng: 73.8567, type: 'Commercial', image: '/compressed-projects/Marutishowroompune.jpg' },
+    { id: 24, name: 'Commissioner office', city: 'pune', lat: 18.5204, lng: 73.8567, type: 'Commercial', image: '/compressed-projects/Commissionerofficepune.jpeg' },
+    { id: 23, name: 'Aashray eminent', city: 'vadodara', lat: 22.3072, lng: 73.1812, type: 'Residential', image: '/compressed-projects/Aashray_eminentVadodara.jpeg' },
+    { id: 27, name: 'Pawar hospital', city: 'nashik', lat: 19.9975, lng: 73.7898, type: 'Healthcare', image: '/compressed-projects/Pawarhospitalnashi.jpeg' },
+    { id: 28, name: 'ShriramEmpireSite', city: 'nashik', lat: 19.9975, lng: 73.7898, type: 'Residential', image: '/compressed-projects/ShriramEmpireSiteNashik.jpg' },
+    { id: 29, name: 'Raichandanimall', city: 'hyderabad', lat: 17.3850, lng: 78.4867, type: 'Commercial', image: '/compressed-projects/Raichandanimall-Hyderabad.webp' },
   ];
 
   const cities = [
-    {
-      id: 'mumbai',
-      name: 'Mumbai',
-      lat: 19.0760,
-      lng: 72.8777,
-      type: 'finance',
-      description: 'The financial powerhouse of India.',
-      image: 'https://images.unsplash.com/photo-1562337590-8957b1efac63?auto=format&fit=crop&q=80&w=800'
-    },
     {
       id: 'pune',
       name: 'Pune',
@@ -191,6 +162,15 @@ export default function AboutUs() {
       type: 'culture',
       description: 'The wine capital of India and a spiritual center.',
       image: 'https://images.unsplash.com/photo-1582979512210-99b6a53386f9?auto=format&fit=crop&q=80&w=800'
+    },
+    {
+      id: 'hyderabad',
+      name: 'Hyderabad',
+      lat: 17.3850,
+      lng: 78.4867,
+      type: 'tech',
+      description: 'A major IT and tech hub of Southern India.',
+      image: 'https://images.unsplash.com/photo-1572445271230-a78b5944a659?auto=format&fit=crop&q=80&w=800'
     }
   ];
 
@@ -308,6 +288,7 @@ export default function AboutUs() {
               font-size: 11px; 
               font-weight: 700; 
               white-space: nowrap; 
+              text-transform: uppercase;
               box-shadow: 0 10px 20px rgba(0,0,0,0.2); 
               opacity: 0; 
               transform: translateY(10px) scale(0.9); 
@@ -342,7 +323,7 @@ export default function AboutUs() {
         }).addTo(mapInstance.current);
 
         // Standard OSM Tiles
-        window.L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
+        window.L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png', {
           attribution: '&copy; OpenStreetMap contributors &copy; CARTO',
           subdomains: 'abcd',
           maxZoom: 19
@@ -1346,10 +1327,10 @@ export default function AboutUs() {
                 background: 'white'
               }} className="min-[2500px]:padding-[40px]">
                 <div>
-                  <h3 style={{ fontSize: '1.5rem', fontWeight: '800', color: '#1a2a5e', margin: 0 }}>
+                  <h3 style={{ fontSize: '1.5rem', fontWeight: '800', color: '#1a2a5e', margin: 0, textTransform: 'uppercase' }}>
                     {activeCity.name} Projects
                   </h3>
-                  <p style={{ color: '#0095AA', fontWeight: '#600', margin: '5px 0 0', fontSize: '0.9rem' }}>
+                  <p style={{ color: '#0095AA', fontWeight: '#600', margin: '5px 0 0', fontSize: '0.9rem', textTransform: 'uppercase' }}>
                     {getNearbyProjects(activeCity.id).length} Projects Found
                   </p>
                 </div>
@@ -1408,7 +1389,7 @@ export default function AboutUs() {
                     </div>
                     <div style={{ padding: '24px' }} className="min-[2500px]:padding-[40px]">
                       <div style={{ color: '#0095AA', fontSize: '0.85rem', fontWeight: '700', textTransform: 'uppercase', marginBottom: '8px', letterSpacing: '1px' }}>{project.type}</div>
-                      <h4 style={{ fontSize: '1.3rem', fontWeight: '800', color: '#1a2a5e', marginBottom: '12px', lineHeight: '1.4' }}>{project.name}</h4>
+                      <h4 style={{ fontSize: '1.3rem', fontWeight: '800', color: '#1a2a5e', marginBottom: '12px', lineHeight: '1.4', textTransform: 'uppercase' }}>{project.name}</h4>
                       <p style={{ fontSize: '0.95rem', color: '#64748b', margin: 0, lineHeight: '1.6' }}>{project.description}</p>
                     </div>
                   </div>
@@ -1440,10 +1421,10 @@ export default function AboutUs() {
                 gap: isMobile ? '15px' : '0'
               }}>
                 <div>
-                  <h3 style={{ fontSize: isMobile ? '1.8rem' : '2.2rem', fontWeight: '800', color: '#1a2a5e', margin: 0 }}>
+                  <h3 style={{ fontSize: isMobile ? '1.8rem' : '2.2rem', fontWeight: '800', color: '#1a2a5e', margin: 0, textTransform: 'uppercase' }}>
                     Projects in {activeCity.name}
                   </h3>
-                  <p style={{ color: '#0095AA', fontWeight: '#600', margin: '5px 0 0' }}>
+                  <p style={{ color: '#0095AA', fontWeight: '#600', margin: '5px 0 0', textTransform: 'uppercase' }}>
                     {getNearbyProjects(activeCity.id).length} Projects Found
                   </p>
                 </div>
@@ -1509,7 +1490,7 @@ export default function AboutUs() {
                       <div style={{ color: '#0095AA', fontSize: '0.85rem', fontWeight: '700', textTransform: 'uppercase', marginBottom: '8px', letterSpacing: '1px' }}>
                         {project.type}
                       </div>
-                      <h4 style={{ fontSize: '1.4rem', fontWeight: '800', color: '#1a2a5e', marginBottom: '12px', lineHeight: '1.2' }}>
+                      <h4 style={{ fontSize: '1.4rem', fontWeight: '800', color: '#1a2a5e', marginBottom: '12px', lineHeight: '1.2', textTransform: 'uppercase' }}>
                         {project.name}
                       </h4>
                       <p style={{ fontSize: '1rem', color: '#64748b', lineHeight: '1.6', margin: 0 }}>

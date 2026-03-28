@@ -662,7 +662,7 @@ const Technology = () => {
           {/* Benefits Grid */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6 min-[2500px]:gap-12 min-[2500px]:mb-12">
             {[
-              'Thiner sections of slab and beams',
+              'Thinner sections of slab and beams',
               'Reduced self weight of structure',
               'Longer, column-free spans',
               'Improved crack and deflection control',
