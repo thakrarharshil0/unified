@@ -166,10 +166,11 @@ const Testimonials = () => {
 
                         <div className="border-t border-gray-100 my-5" />
 
-                        <div className="flex text-center">
-                          <span className="text-[#e2a04f] text-[24px] font-serif leading-none">&ldquo;</span>
-                          <p className="text-[16px] md:text-[18px] font-medium leading-[1.6] text-[#333]">
-                            {t.description}&rdquo;
+                        <div className="text-center">
+                          <p className="text-[16px] md:text-[18px] font-medium leading-[1.6] text-[#333] italic">
+                            <span className="text-[#e2a04f] text-[24px] font-serif leading-none mr-1 inline-block">&ldquo;</span>
+                            {t.description}
+                            <span className="text-[#e2a04f] text-[24px] font-serif leading-none ml-1 inline-block">&rdquo;</span>
                           </p>
                         </div>
 

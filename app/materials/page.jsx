@@ -967,7 +967,7 @@ export default function MaterialsPage() {
 
         </div>
 
-        <div className="max-w-7xl min-[2000px]:max-w-[2000px] mx-auto px-6 my-20 min-[2000px]:my-32">
+        <div className="max-w-7xl min-[2000px]:max-w-[2000px] mx-auto px-6 my-20 min-[2000px]:my-32 max-[800px]:px-2">
 
           {/* ===== TITLE STRIP ===== */}
           <div className="bg-[#2d3476] text-white text-center py-4 px-6 min-[2000px]:py-10">
@@ -1029,7 +1029,7 @@ export default function MaterialsPage() {
           </div>
         </div>
 
-        <div className="max-w-7xl min-[2000px]:max-w-[2000px] mx-auto px-6 my-20 min-[2000px]:my-32">
+        <div className="max-w-7xl min-[2000px]:max-w-[2000px] mx-auto px-6 my-20 min-[2000px]:my-32 max-[800px]:px-2">
 
           {/* ===== TITLE STRIP ===== */}
           <div className="bg-[#2d3476] text-white text-center py-4 px-6 min-[2000px]:py-10">

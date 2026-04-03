@@ -636,7 +636,7 @@ export default function AboutUs() {
       {/* WHO WE ARE Section */}
       <section
         id="who-we-are"
-        className={`relative px-10 py-16 min-h-[60vh] overflow-hidden min-[2500px]:px-40 ${isSectionVisible('who-we-are') ? 'block' : 'hidden'}`}
+        className={`relative px-10 py-16 min-h-[60vh] overflow-hidden min-[2500px]:px-40 max-[800px]:px-4 ${isSectionVisible('who-we-are') ? 'block' : 'hidden'}`}
       >
         {/* Background Image */}
         <img

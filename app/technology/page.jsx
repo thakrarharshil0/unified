@@ -516,7 +516,7 @@ const Technology = () => {
       {/* Overview Section */}
       <section
         id="post-tensioning-systems"
-        className={`relative px-10 lg:px-16 py-16 lg:py-24 min-h-[60vh] overflow-hidden ${isSectionVisible('post-tensioning-systems') ? 'block' : 'hidden'
+        className={`relative px-10 lg:px-16 py-16 lg:py-24 min-h-[60vh] overflow-hidden max-[800px]:px-2 ${isSectionVisible('post-tensioning-systems') ? 'block' : 'hidden'
           }`}
       >
 
@@ -692,7 +692,7 @@ const Technology = () => {
 
       <section
         id="bonded-tensioning-systems"
-        className={`relative px-10 lg:px-16 py-16 lg:py-24 min-h-[60vh] overflow-hidden ${isSectionVisible('bonded-tensioning-systems') ? 'block' : 'hidden'
+        className={`relative px-10 lg:px-16 py-16 lg:py-24 min-h-[60vh] overflow-hidden max-[800px]:px-2 ${isSectionVisible('bonded-tensioning-systems') ? 'block' : 'hidden'
           }`}
       >
 
@@ -954,7 +954,7 @@ const Technology = () => {
 
       <section
         id="unbonded-tensioning-systems"
-        className={`relative px-10 lg:px-16 py-16 lg:py-24 min-h-[60vh] overflow-hidden ${isSectionVisible('unbonded-tensioning-systems') ? 'block' : 'hidden'
+        className={`relative px-10 lg:px-16 py-16 lg:py-24 min-h-[60vh] overflow-hidden max-[800px]:px-2 ${isSectionVisible('unbonded-tensioning-systems') ? 'block' : 'hidden'
           }`}
       >
 
@@ -1198,7 +1198,7 @@ const Technology = () => {
       </section>
       <section
         id="structural-geometry"
-        className={`relative px-10 lg:px-16 py-16 lg:py-24 min-h-[60vh] overflow-hidden ${isSectionVisible('structural-geometry') ? 'block' : 'hidden'}`}
+        className={`relative px-10 lg:px-16 py-16 lg:py-24 min-h-[60vh] overflow-hidden max-[800px]:px-2 ${isSectionVisible('structural-geometry') ? 'block' : 'hidden'}`}
       >
         <h2 className="text-[clamp(2.5rem,7vw,5rem)] font-black text-[#1a2a5e] font-anton mx-auto mb-16 text-center relative z-10 min-[2500px]:text-[8rem] min-[2500px]:mb-32">
           STRUCTURAL GEOMETRY

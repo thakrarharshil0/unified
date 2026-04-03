@@ -63,7 +63,7 @@ export default function ClientsPage() {
 
     const targets = {
       first: 8,
-      second: 380,
+      second: 580,
       third: 84,
     };
 
