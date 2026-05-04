@@ -162,10 +162,14 @@ const Footer = () => {
         </div>
       </div>
 
-      {/* Bottom */}
       <div className="relative z-10 bg-black/20 px-6 lg:px-16 py-5 min-[2500px]:py-10">
         <div className="max-w-[1400px] min-[2500px]:max-w-[2200px] mx-auto flex flex-col items-center gap-4 text-xs min-[2500px]:text-lg text-slate-400">
-          <p className="text-center">© {currentYear} Unified Post Tensioning Systems LLP. All Rights Reserved.</p>
+          <div className="text-center">
+            <p>© {currentYear} Unified Post Tensioning Systems LLP All Rights Reserved.</p>
+            <p className="mt-1">
+              Designed & Developed by <span className="text-[#0095AA] font-semibold">Digital Creators</span>
+            </p>
+          </div>
           <div className="flex gap-4">
             <Link href="/privacy-policy" className="hover:text-[#0095AA]">
               Privacy Policy
