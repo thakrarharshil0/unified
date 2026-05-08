@@ -26,12 +26,12 @@ const BrochureModal = ({ isOpen, onClose, brochurePath }) => {
       const apiUrl = process.env.NEXT_PUBLIC_API_URL || "https://admin.unifiedpts.com/api";
       const fetchUrl = process.env.NODE_ENV === 'development' ? '/api-proxy' : apiUrl;
       
-      const res = await fetch(`${fetchUrl}/contact-us`, {
+      const res = await fetch(`${fetchUrl}/brochure-requests`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
           ...formData,
-          message: `Brochure Download Request for: ${brochurePath}`,
+          brochure_path: brochurePath,
         }),
       });
 

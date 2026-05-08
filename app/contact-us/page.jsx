@@ -323,7 +323,7 @@ export default function ContactPage() {
                     <FloatingInput label="Email Address" name="email" type="email" icon={<Mail size={18} />} required />
                   </div>
                   <FloatingInput label="Phone Number" name="phone" type="tel" icon={<Phone size={18} />} required pattern="[6-9]{1}[0-9]{9}" />
-                  <FloatingTextarea label="Your Message" name="message" icon={<MessageSquare size={18} />} />
+                  <FloatingTextarea label="Your Message" name="message" icon={<MessageSquare size={18} />} required />
                   <button
                     type="submit"
                     className="w-full flex items-center justify-center gap-2 bg-[#0095aa] hover:bg-[#007f91] text-white px-10 min-[2500px]:px-20 py-5 min-[2500px]:py-10 rounded-full font-bold text-lg min-[2500px]:text-3xl transition-all duration-300 hover:scale-[1.02] shadow-lg"
