@@ -93,7 +93,7 @@ const Hero = () => {
   }, [hasAnimated]);
 
   const animateNumbers = () => {
-    const targets = { years: 8, projects: 600, cities: 84, engineers: 171 };
+    const targets = { years: 8, projects: 600, cities: 84, engineers: 75 };
     const duration = 2500;
     let start = null;
 
@@ -218,7 +218,7 @@ const Hero = () => {
                 [animatedNumbers.years, "Years of Experience"],
                 [animatedNumbers.projects, "Projects Completed"],
                 [animatedNumbers.cities, "Cities Covered"],
-                [animatedNumbers.engineers, "Engineers & Architects"],
+                [animatedNumbers.engineers, "Engineers & Experts"],
               ].map(([num, label], i) => (
                 <div
                   key={i}

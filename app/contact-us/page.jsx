@@ -343,7 +343,7 @@ export default function ContactPage() {
                 <div className="flex flex-col gap-6">
                   <ContactItem icon={<Mail size={22} />} title="Email Support" value="unifiedpts@gmail.com" />
                   <ContactItem icon={<Phone size={22} />} title="Contact Number" value="+91 95740 76889" />
-                  <ContactItem icon={<Building size={22} />} title="Head Office" value="C-1804-1807, Kailash Business Park, Vikhroli West, Mumbai - 400079" isHeadOffice={true} />
+                  <ContactItem icon={<Building size={22} />} title="Head Office - Mumbai" value="C-1804-1807, Kailash Business Park, Vikhroli West, Mumbai - 400079" isHeadOffice={true} />
 
                   {/* Head Office Map Embed */}
                   <div className="mt-4 w-full h-[220px] min-[2500px]:h-[400px] rounded-2xl overflow-hidden shadow-md border-2 border-[#0095aa]/10 transition-all hover:border-[#0095aa]/30">
