@@ -93,7 +93,7 @@ const Hero = () => {
   }, [hasAnimated]);
 
   const animateNumbers = () => {
-    const targets = { years: 8, projects: 600, cities: 84, engineers: 75 };
+    const targets = { years: 8, projects: 600, cities: 84, engineers: 80 };
     const duration = 2500;
     let start = null;
 
